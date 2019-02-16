@@ -1,0 +1,666 @@
+#Gregtania6 Skyblock 日本語化
+
+##################
+# BetterQuesting #
+##################
+
+betterquesting.title.quest_lines=Gregtania6 Skyblock クエストライン
+betterquesting.title.edit_line1=クエストライン編集
+betterquesting.title.edit_line2=クエストライン編集 - %s
+betterquesting.title.edit_quest=クエスト編集
+betterquesting.title.edit_tasks=課題編集
+betterquesting.title.edit_rewards=報酬編集
+betterquesting.title.edit_text=テキストエディタ
+betterquesting.title.pre_requisites=前提要求編集
+betterquesting.title.json_object=オブジェクト
+betterquesting.title.json_array=リスト
+betterquesting.title.json_add=新しいタイプ
+betterquesting.title.select_item=アイテム選択
+betterquesting.title.select_fluid=液体選択
+betterquesting.title.select_entity=物体編集
+betterquesting.title.party_none=クエストパーティー
+betterquesting.title.party=パーティー管理 - %s
+betterquesting.title.party_invite=ユーザー招待
+betterquesting.title.select_theme=テーマ選択
+betterquesting.title.importers=読み込み
+betterquesting.title.submit_station=クエスト納品機
+
+betterquesting.btn.rewards=報酬
+betterquesting.btn.tasks=課題
+betterquesting.btn.advanced=発展
+betterquesting.btn.is_main=メインクエスト
+betterquesting.btn.requirements=前提要求
+betterquesting.btn.edit=編集
+betterquesting.btn.new=新しく追加
+betterquesting.btn.import=読み込み
+betterquesting.btn.logic=論理
+betterquesting.btn.show=表示
+betterquesting.btn.claim=要求
+betterquesting.btn.detect_submit=検出 / 納品
+betterquesting.btn.add_remove_quests=クエストを加える/除く
+betterquesting.btn.designer=デザイナー
+betterquesting.btn.item=アイテム
+betterquesting.btn.list=リスト
+betterquesting.btn.fluid=液体
+betterquesting.btn.entity=物体
+betterquesting.btn.text=テキスト
+betterquesting.btn.number=数字
+betterquesting.btn.object=オブジェクト
+betterquesting.btn.raw_nbt=生NBT
+betterquesting.btn.party_new=パーティー作成
+betterquesting.btn.party_leave=退出
+betterquesting.btn.party_invite=招待
+betterquesting.btn.party_kick=キック
+betterquesting.btn.party_join=参加
+betterquesting.btn.party_share_lives=ライフ共有
+betterquesting.btn.party_share_loot=単一報酬
+betterquesting.btn.icon=アイコン
+
+betterquesting.home.exit=閉じる
+betterquesting.home.quests=クエスト
+betterquesting.home.party=パーティー
+betterquesting.home.theme=テーマ
+
+betterquesting.gui.name=名前
+betterquesting.gui.description=詳細
+betterquesting.gui.quest_line=Gregtania6 Skyblock クエストライン
+betterquesting.gui.database=データベース
+betterquesting.gui.selection=選択
+betterquesting.gui.search=検索
+betterquesting.gui.folder=フォルダ
+betterquesting.gui.party_invites=招待
+betterquesting.gui.party_members=メンバー
+betterquesting.gui.remaining_lives=残りのライフ: %s
+betterquesting.gui.full_lives=ライフ満タン
+betterquesting.gui.closing_warning=本当に編集画面を閉じますか？
+betterquesting.gui.closing_confirm=変更した部分が消える可能性があります！
+betterquesting.gui.key=キー名
+betterquesting.gui.no_key=キーがありません
+betterquesting.gui.duplicate_key=キーが重複しています
+
+betterquesting.tooltip.tasks_complete=%s/%s 課題達成
+betterquesting.tooltip.complete=達成
+betterquesting.tooltip.incomplete=未達成
+betterquesting.tooltip.rewards_pending=報酬未要求
+betterquesting.tooltip.requires=要求:
+betterquesting.tooltip.shift_advanced=SHIFTを押して詳細な情報
+betterquesting.tooltip.reset_time=クールダウン: %s
+betterquesting.tooltip.main_quest=メインクエスト: %s
+betterquesting.tooltip.global_quest=全体クエスト: %s
+betterquesting.tooltip.global_share=全体共有: %s
+betterquesting.tooltip.task_logic=課題論理: %s
+betterquesting.tooltip.simultaneous=同時の課題: %s
+betterquesting.tooltip.auto_claim=自動的に納品: %s
+betterquesting.tooltip.repeat=クールダウン: %s
+betterquesting.tooltip.update_quests=更新されました!%n§7A 新しいクエストが現れました。%nクリックして移動します。
+
+betterquesting.notice.complete=クエスト達成
+betterquesting.notice.update=クエスト更新
+betterquesting.notice.unlock=クエスト開放
+
+betterquesting.msg.heart_disabled=ライフのハードコアモードは有効ではありません。 "/bq_admin hardcore"コマンドで変更できます。
+
+key.betterquesting.quests=クエストを開く
+key.betterquesting.party=パーティー管理
+key.betterquesting.themes=テーマを変える
+
+itemGroup.betterquesting=Better Questing
+
+fluid.betterquesting.placeholder=液体エラー回避代用物
+
+item.betterquesting.placeholder.name=アイテムエラー回避代用物
+item.betterquesting.extra_life.full.name=ライフ
+item.betterquesting.extra_life.half.name=1/2ライフ
+item.betterquesting.extra_life.quarter.name=1/4ライフ
+item.betterquesting.guide.name=Better Questing ガイドブック
+
+tile.betterquesting.submit_station.name=クエスト納品機 (OSS)
+
+betterquesting.btn.help1=Navigation
+betterquesting.btn.help2=OSS Block
+betterquesting.btn.help3=Making Quests
+betterquesting.btn.help4=Commands
+betterquesting.btn.help5=Importing
+betterquesting.btn.help6=Themes
+betterquesting.btn.help7=Localization
+betterquesting.btn.help8=Resources
+
+betterquesting.help.page1=§l§nGeneral Navigation%n§r%nBetter Questing's main questing GUIs do not rely on an item or block that could be easily lost but instead through a single keybinding which can be found and changed through the controls menu.%n%nIn the Quest Lines screen you can select any of your active lines from the list and drag around the box to navigate to the quest of your choosing to begin completing tasks.%n%nQuesting parties can be created or edited via the Party Management screens. Here you can also toggle options for sharing hardcore lives or quest rewards.%n%nIf you'd like to change the look of your questing UIs you can choose from the currently installed themes in the Theme selection screen.
+betterquesting.help.page2=§l§nSubmission Station%n§r%nAlthough many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. Tasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot however it will not void items or liquids if no task is selected or if it has already been completed making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!
+betterquesting.help.page3=§l§nMaking Quests%n§r%nTo begin making quests and quest lines you will first have to enable edit mode by running the edit command (See commands for more info). You will then be able to add or remove quest lines however you do not require one to begin making quests. This is especially handy if you'd like to make secret quests that unlock other quests or quest lines.%n%nThere are several menus you will need to become familiar with while editing. These will be a little overwhelming at first compared to most other mods but over time it will get easier. Some advanced editing screens will edit raw questing data so you'd want to be very careful what you change as it could have adverse side effects however this should never result in corruption or a crash. If either occurs than you should immediately report it to a developer.
+betterquesting.help.page4=§l§nCommands%n§r%nThere are only a handful of commands you need to know when working with Better Questing. They are separated into user commands that anyone can run and admin commands which are restricted to server operators.%n%n§o/bq_user refresh%n§r%nManually resyncs the local questing database with the server in case of potential desync issues.%n%n§o/bq_user help%n§r%nGives the player a copy of this guide%n%n§o/bq_admin edit%n§r%nToggles quest editing mode on and off. When enabled, operators will be able to access the editing menus for quests and quest lines. Remember to disable this before publishing packs or quests.%n%n§o/bq_admin hardcore%n§r%nToggles on and off the use of hardcore lives. When all lives have been depleted, players will be banned from the server or have their world deleted as per standard vanilla hardcore.%n%n§o/bq_admin reset [all|<quest_id>] [username|uuid]%n§r%nErases quest completion data for the given user. Handy to use before publishing packs.%n%n§o/bq_admin default [save|load]%n§r%nSaves/loads the current quest database to/from the global default directory. Setting defaults means any newly created worlds will start with that particular set of quests. Saving will also preserve completion data, hardcore state and edit mode so be sure to use the various other command as necessary before running this one.%n%n§o/bq_admin complete <quest_id> [username|uuid]%n§r%nForce completes a quest for the given user%n%n§o/bq_admin delete [all|<quest_id>]%n§r%nDeletes given quest(s) and progression data however it does not delete new world defaults.%n%n§o/bq_admin lives [add|set|max|default] <value> [username]%n§r%nThese commands change the amount of lives players have or the starting and max values.
+betterquesting.help.page5=§l§nImporting%n§r%nSome expansion packs may include importers for other questing mods or allow pack makers to download online quest lines. To access these importers you can click on the 'Import' button in the main quest line editor. By default Better Questing does not have any importers so if you require a specific importer you'll need to either find an expansion with one or make it yourself.
+betterquesting.help.page6=§l§nThemes%n§r%nIf you're someone who prefers a certain color pallet in their UIs or are just a pack maker wanting to give it that more authentic look and feel then themes are your best friend. Themes can change the look of the questing UIs to suit whatever your needs may be whether it be futuristic, magical or just classic Minecraft. They can be installed either through resource packs, resource directory or via expansions packs.
+betterquesting.help.page7=§l§nLocalization%n§r%nBetter Questing supports full localization of quest names and descriptions so that if you wanted to release your pack to users of all nationalities now you now can! In order to begin localizing your quests you'll need to use unique keys such as "§omypack.quest1.name§r" instead of plain text. You can then create a resource pack containing only .lang files for all the language specific translations. These files can alternatively be stored in Better Questing's resource directory for better bundling in packs
+betterquesting.help.page8=§l§nResources%n§r%nIf you want to customise the home screen, bundle themes or add localization files then you can do so through: %n%n"§o/config/betterquesting/resources/<pack_name>/§r"%n%nAny folders here can be treated as unlisted resource packs containing everything required to personalize your pack.
+
+betterquesting.design.tree=ツリーデザイン
+
+betterquesting.toolbox.tab.main=メイン
+
+betterquesting.toolbox.tool.open.name=開く
+betterquesting.toolbox.tool.open.desc=発展的なクエスト編集を開く
+betterquesting.toolbox.tool.grab.name=掴む
+betterquesting.toolbox.tool.grab.desc=クエストライン内でクエストを掴んで移動する
+betterquesting.toolbox.tool.link.name=繋げる
+betterquesting.toolbox.tool.link.desc=クエストを前提条件として指定します。すでに繋がっている場合除かれます。
+betterquesting.toolbox.tool.snap.name=格子の大きさ
+betterquesting.toolbox.tool.snap.desc=他ツールの為に格子の大きさを変える
+betterquesting.toolbox.tool.copy.name=コピー
+betterquesting.toolbox.tool.copy.desc=前提条件、課題、報酬情報も含めてクエストをコピーします。進行データは保持しません。
+betterquesting.toolbox.tool.new.name=新しいクエスト
+betterquesting.toolbox.tool.new.desc=新しいクエストを作ります
+betterquesting.toolbox.tool.delete.name=クエスト完全削除
+betterquesting.toolbox.tool.delete.desc=クエストラインとデータベースからクエストを削除する
+betterquesting.toolbox.tool.remove.name=クエスト除外
+betterquesting.toolbox.tool.remove.desc=クエストラインからクエストを削除します。データベース経由でクエストにアクセスできます
+betterquesting.toolbox.tool.complete.name=手動で達成済
+betterquesting.toolbox.tool.complete.desc=強制的に選択したクエストを達成済にします
+betterquesting.toolbox.tool.reset.name=クエストをリセット
+betterquesting.toolbox.tool.reset.desc=課題状況と達成済状態をリセットします
+betterquesting.toolbox.tool.icon.name=アイコン選択
+betterquesting.toolbox.tool.icon.desc=クエストのアイコンを変更します
+betterquesting.toolbox.tool.scale.name=アイコンの大きさの倍率
+betterquesting.toolbox.tool.scale.desc=アイコンの大きさの倍率を変更します
+betterquesting.toolbox.tool.raw.name=生データ編集
+betterquesting.toolbox.tool.raw.desc=JSONファイルを直接的に編集します。隠された設定等も変更できます。
+
+betterquesting.cmd.complete=クエスト達成 %s -> %s
+betterquesting.cmd.default.save=デフォルトにクエストのデータベースを保存します
+betterquesting.cmd.default.save2=クエストデータベースは %s　に保存されました
+betterquesting.cmd.default.load=デフォルトのデータベースを読み込みました
+betterquesting.cmd.default.load2=%s　からクエストデータベースを読み込みました
+betterquesting.cmd.default.set=%s をデフォルトのデータベースにセットしました
+betterquesting.cmd.default.none=クエストデータベースが見つかりません
+betterquesting.cmd.delete.single=%s　のクエストを削除しました
+betterquesting.cmd.delete.all=全てのクエストを削除しました
+betterquesting.cmd.edit=編集モード %s
+betterquesting.cmd.hardcore=ハードコアモード %s
+
+betterquesting.cmd.lives.add_player=%s のライフを %s に加えました(全体: %s)
+betterquesting.cmd.lives.add_all=%s のライフを全員に加えました
+betterquesting.cmd.lives.remove_player=%s のライフを %s から除きました(全体: %s)
+betterquesting.cmd.lives.remove_all=%s のライフを全員から除きました
+betterquesting.cmd.lives.set_player=%s のライフを %s にしました
+betterquesting.cmd.lives.set_all=全員のライフを %s にしました
+betterquesting.cmd.lives.max=最大ライフを %s にしました
+betterquesting.cmd.lives.default=デフォルトのライフを %s にしました
+
+betterquesting.cmd.reset.player_single=クエスト '%s' の %s の進行状況がリセットされました
+betterquesting.cmd.reset.player_all=%s のすべてのクエストがリセットされました
+betterquesting.cmd.reset.all_single=クエスト '%s' の全員の進行状況がリセットされました
+betterquesting.cmd.reset.all_all=全員のすべてのクエストがリセットされました
+betterquesting.cmd.refresh=クライアントのデータベースをリフレッシュしています...
+
+json.betterquesting.quest.name=クエストデータ
+jdoc.betterquesting.quest.rewards.name=報酬
+jdoc.betterquesting.quest.rewards.desc=変更可能な報酬タイプのリスト
+jdoc.betterquesting.quest.tasks.name=課題
+jdoc.betterquesting.quest.tasks.desc=変更可能な課題タイプのリスト
+jdoc.betterquesting.quest.preRequisites.name=前提要求
+jdoc.betterquesting.quest.preRequisites.desc=このクエストを開放するのに必要なクエストID
+jdoc.betterquesting.quest.properties.name=状態
+jdoc.betterquesting.quest.properties.desc=クエストの出現と機能を定める状態
+
+jdoc.betterquesting.quest.properties.betterquesting.name=BetterQuesting
+jdoc.betterquesting.quest.properties.betterquesting.desc=BetterQuesting 状態
+
+
+#########
+# Quest #
+#########
+
+#########################
+# Tier0 Getting Started #
+#########################
+
+t0.all.name=Tier0 - Getting Started (-Stone)
+t0.all.desc=Learn basical information for living this world.
+
+t0.q0.name=Welcome to Gregtech6 Skyblock
+t0.q0.desc=This modpack is designed for learning Gregtech6(GT6) through quests.%n Please note that it’ll change the process because of updating GT6, but I’m sure that you can learn the basic information.%n%n I wrote minimum quests that influences GT6 ages. There are many machines and items that are very useful, so please try and enjoy!%n%nBefore to play, you need to know you have a possibility of being screwed.%n1. §a§aDon’t break all grass block.%n§f2. §a§aDon’t lost items. Especially you have to keep living root.%n§f3. §aDon’t break water.§f%n%n This modpack uses my modified mods for your comfortable game. I’m not good at Java (=Programming language) so it’ll be caught many bugs. §aDon’t report mod author when you get game crash.§f Report issues to my GitHub.%n%nNew function:%n* You can edit the letter you wrote in the search box of NEI. (Same with JEI)%n* You can see GT6 ore vein information in NEI when you click ores in NEI (It’ll useful in the Nether and End)%n* You can see recipes when you click item icons in BetterQuesting quest screen.%n* Change GUI position in BetterQuesting.%n
+
+t0.q1.name=Get Cobblestone
+t0.q1.desc=There is no stone. This island is too small to live.%nHow to live and develop here?%n%nNo ploblem. You can create rocks from dirt infinity.%nWhen you Shift+Right click to dirt, you can get rocks.
+
+t0.q2.name=Get woods
+t0.q2.desc=There are Living Root in your island. %n When you break it, you can get the resource of woods.
+
+t0.q3.name=Crafting table
+t0.q3.desc=Yes, it’s same with vanilla.
+
+t0.q4.name=Bulk lumber
+t0.q4.desc=GT6 axe is very useful because you can cut down all woods.%n%n If you right click to Wood Log, you can get Beam and Bark (it’s useful to burn things.)%n
+
+t0.q5.name=Make a trap for some bones
+t0.q5.desc=Please note that you need dark place.%nIt’s important to make the place where you can attack without recieving enemy attack.
+
+t0.q6.name=Excavation tool
+t0.q6.desc=Vanilla tools are nerfed and you need to use GT6 tools.
+
+#t0.q7.name=
+#t0.q7.desc=
+
+t0.q8.name=Make knife for tools and grass
+t0.q8.desc=If you break grass with knife, you can get dry grass.%n%nIt’s interesting to kill your friends with knife, isn’t it?
+
+t0.q9.name=Dry grass for fire source
+t0.q9.desc=Place grass bale on the world.%nIt’ll change dry grass bale and it’s used for fire.
+
+t0.q10.name=Get light
+t0.q10.desc=If you think to extend your islands, you need light for stopping spawn enemies.
+
+t0.q11.name=Bake things
+t0.q11.desc=Bake in the low temperature.
+
+t0.q12.name=Raw material for everythings
+t0.q12.desc=Botania and gregtania use many stones.
+
+t0.q13.name=Keep items
+t0.q13.desc=You need keep items. %nThis modpack doesn’t contain Grave mods.
+
+t0.q14.name=Change stones to ores
+t0.q14.desc=Place stone near this flower and you can get many ores.%n%nYou need another stone to get another ores.
+
+t0.q15.name=Scoop water
+t0.q15.desc=Water is not infinity source now, but you need to scoop water for botania infusion.%nThis item can scoop water without losting water.
+
+t0.q16.name=Break things
+t0.q16.desc=Hammer can use for...%n1. Break cobblestone and get gravel.%n2. Break ores and get crashed ores.%n3. Crafting
+
+#t0.q17.name=
+#t0.q17.desc=
+
+t0.q18.name=Grow grass and flowers
+t0.q18.desc=Grass is used for fires, botania flowers, dyes and so on.
+
+t0.q19.name=The way to get botania flower (1)
+t0.q19.desc=It’s impossible to get new resources from vanilla and GT6, but you can use botania mystical flowers and do it.
+
+#t0.q20.name=
+#t0.q20.desc=
+
+#t0.q21.name=
+#t0.q21.desc=
+
+t0.q22.name=The tool to get botania dyes
+t0.q22.desc=Botania dyes can be used for increasing botania bone meal.
+
+t0.q23.name=The way to get botania flower (2)
+t0.q23.desc=This way is more efficiency to increase botania flowers.
+
+#t0.q24.name=
+#t0.q24.desc=
+
+t0.q25.name=Petal Apothecary
+t0.q25.desc=You can make useful botania flowers.%nScoop water by bowl and throw items and a seed.
+
+t0.q26.name=Pure Daisy
+t0.q26.desc=1. Convert stones to Living rock%n2. Convert wood log to Living wood%n%nYou need to place stones or wood logs around the Pure Daisy.%nIt will take about 80 seconds to convert.
+
+t0.q27.name=Convert Wood logs to Livingwood
+t0.q27.desc=It’s used for botania items.
+
+t0.q28.name=Convert Stones to Livingrock
+t0.q28.desc=It’s used for botania items.
+
+t0.q29.name=Best furnace fuel
+t0.q29.desc=It’s just a reminder quest.%n%nRight click to wood log and you can get more fuels.%n
+
+t0.q30.name=Mana poo
+t0.q30.desc=Keep mana and you can use for various ways.
+
+t0.q31.name=Send mana to pool
+t0.q31.desc=Use Wand of the Forest and send mana.
+
+t0.q32.name=The wand for sending mana
+t0.q32.desc=There are two modes. Shift right-click can change mode.%n%n1. Bind Mode - Connect for sending mana.%n2. Function Mode
+
+t0.q33.name=Create mana during the night
+t0.q33.desc=Create mana during the night, but the amount of mana is little and it’ll wither.
+
+t0.q34.name=Create mana during the day
+t0.q34.desc=Create mana during the day, but the amount of mana is little and it’ll wither.
+
+#t0.q35.name=
+#t0.q35.desc=
+
+t0.q36.name=Mana Powder
+t0.q36.desc=Use Wand of the Forest and send mana to mana pool from flowers.%nAfter saving mana in the pool, throw items and convert them.
+
+t0.q37.name=Create more Mana
+t0.q37.desc=Throw fuels near this flower and it’ll create more mana.%n%nThis flower doesn’t wither.
+
+t0.q38.name=More efficiency to get basic ores
+t0.q38.desc=If you need to get only basic material such as copper, you can use this.
+
+t0.q39.name=Get Flint
+t0.q39.desc=There are tyo ways to get gravel.%n%n1. Crafting%n2. Place cobblestone and break it with hammer%n%nOf course you can get flient by breaking gravel.
+
+t0.q40.name=Need another ores Lv.1
+t0.q40.desc=This flower can convert stones to many various stones.%n%nYou can see more details at my excel file and botania book.
+
+t0.q41.name=Create clay for tools and Crucible
+t0.q41.desc=Place gravel near this flower and you can get clay.
+
+t0.q42.name=Convert Gravel to Clay
+t0.q42.desc=Place gravel and you can get clay.%nYou need mana to work.
+
+t0.q104.name=Reload quests
+t0.q104.desc=After updating this modpack and there is the quest changes, you need to reload quests.
+
+t0.q133.name=Show all quests
+t0.q133.desc=I suggest you see all quests before playing this modpack if your purpose is learning GT6.%nIt’s important to see whole process.%n%nYou need to get OP to do.
+
+###################
+# Tier1 Steam age #
+###################
+
+t1.all.name=Tier1 - Steam Age (Bronze-Steel)
+t1.all.desc=Learn the beginning of GT6.
+
+t1.q43.name=Get HU power
+t1.q43.desc=It’ll output 16HU on the top of this.
+
+t1.q44.name=Tier1 ingot : Copper
+t1.q44.desc=It’s a basic material.
+
+t1.q45.name=Tier1 ingot : Lead
+t1.q45.desc=It’s a basic material.
+
+t1.q46.name=Metal working Anvil
+t1.q46.desc=It’s used for Anvil Bending.
+
+t1.q47.name=Chisel
+t1.q47.desc=It’s used for crafting and chisel mold.
+
+t1.q48.name=Smelting Crucible in the low temperature
+t1.q48.desc=This crucible can keep 2500K.%nIf the temperature reachs 2500K, it’ll explode.
+
+t1.q49.name=Mold
+t1.q49.desc=You can get metals from Crucible by using mold.%nThere are many forms you can use.%nIntroduce some forms. (You can see more details on FTB wiki.)%nhttps://ftb.gamepedia.com/Mold_(GregTech_6)%n%nO - Not chisel%nX - Chiseled%n%n1. Ingot (Need 1 units)%n%nX\tX\tX\tO\tO%nX\tX\tX\tO\tO%nX\tX\tX\tO\tO%nX\tX\tX\tO\tO%nX\tX\tX\tO\tO%n%n2. Plate (Need 1 units)%n%nX\tX\tX\tX\tX%nX\tX\tX\tX\tX%nX\tX\tX\tX\tX%nX\tX\tX\tX\tX%nX\tX\tX\tX\tX
+
+t1.q50.name=New material : Iron
+t1.q50.desc=It’s easy to make iron by using these recipes. (Of course there are another recipes.)%n%n1. Yellow Limonite : Carbon = 4 : 1%n2. Brown Limonite : Carbon = 4 : 1%n%nMelt : 1811K%n%nDon’t make high temperature, or it’ll change wrought iron. (2011K)
+
+t1.q51.name=Before to fire
+t1.q51.desc=Now it’s time to use the crucible.%n%nBefore to fire the burning box, you need to confirm these things.%n%n1. Place Burning box. Place Crucible on the burning box. Then place mold next to the crucible.%n%n2. Throw your materials to the top of the crucible. Crucible can hold 16 units.%n%n3. Don’t touch crucible and mold which contains hot materials, or you’ll get damage. You can use hopper or pincer for taking materials quickly and safely.%n%n4. Need fuels to fire. Place something else to fire in the burning box and use Igniter. (Ex: Flint and Steel, Match, Fire Starter and so on)%n%n5. If you want to get carbon dust at this stage, you need to use coal as fuels.%n%n6. Use NEI and confirm how temperature it melts.%n%n7. If you want to stop burning, you need to place a block in front of the burning box (Need times to stop so you need to place before the temperature you want.) or break the burning box by using wrench. %n%n8. You can output materials by clicking mold.%n%n9. If you want to get bronze, the color of the top is [ Black(Not melt) - White(Tin melts) - Orange(Copper melts and mix them, became Bronze) ]%n%n10. There is the thermomater which can visible the temperature of the crucible. Wait a quest.
+
+t1.q52.name=Automatic output items
+t1.q52.desc=If you place below the mold, it’ll output automatically.
+
+t1.q53.name=File
+t1.q53.desc=You can use for many recipes.
+
+t1.q54.name=Wrench
+t1.q54.desc=It is used for crafting, connecting pipes and breaking machines without losting.
+
+t1.q55.name=Mana ingot
+t1.q55.desc=Throw iron ingot to mana pool and you can get manasteel.
+
+t1.q56.name=Anvil Bending
+t1.q56.desc=If you want to bend metal form, you can use anvil with hammer.%nThere are 3 types to work.%n%n1. Anvil Bending(Big)%nPlace a item and click the side with hammer where there isn’t a item.  %n%n2. Anvil Bending%nPlace two items on the top of Anvil and click top with hammer.%n%n3. Anvil Bending(Small)%nPlace a item and click the side with hammer where there is a item.
+
+t1.q57.name=Earth rune
+t1.q57.desc=It’s used for some recipes.
+
+t1.q58.name=Wash crushed ores and get byproducts
+t1.q58.desc=Fill water by using buckets and throw crushed or impure ore.%nYou can get byproducts and clean ore.
+
+t1.q59.name=Need another ores Lv.2
+t1.q59.desc=You can get more stones but you need to get Stratodendron 3 for next stage.
+
+t1.q60.name=Need another ores Lv.3
+t1.q60.desc=Now you can get diamond and Cinnabar.
+
+t1.q61.name=Diamond!
+t1.q61.desc=§fUse sifter to get. (15% chance)
+
+t1.q62.name=Hatch animal eggs
+t1.q62.desc=Place and wait some times, some animals come.
+
+t1.q63.name=Summon Blaze
+t1.q63.desc=You need to get blaze powder for going to the nether. Then let's summon blaze.%nPlace Fel Pumpkin, and iron bars up and down.
+
+t1.q64.name=Crush things
+t1.q64.desc=You can shredder many things.
+
+t1.q65.name=New material : Steel
+t1.q65.desc=Iron : Carbon = 50 : 1%n2046K
+
+t1.q66.name=New material : Bronze
+t1.q66.desc=Tin : Copper = 1 : 3%n1357K
+
+t1.q67.name=Get more HU power
+t1.q67.desc=Create 24 HU on the top of this by using solid fuels.%n%nIf you use coal fuel, you can get carbon.
+
+t1.q68.name=Create steam
+t1.q68.desc=You can output steam from the top side.%nPlease note that you need to input water for stopping explosion. If it losts all water then it’ll exprode.%n%nThere is two water you can input.%n1. Water - It’s normal water. Power falls down 1/2. %n2. Distilled water - It’s clean water.%n%nYou need to endure using normal water now, but after making infinity water, Drain and Dryer you can use Distilled water.%n%nYou can see boiler status on the circle of the boiler.%nGreen - Working correctly%nRed - It’ll explode%n%nIf you create steams more than turbine/engine limit, the machine will be overheat and stop working.
+
+t1.q69.name=Convert steam to RU power
+t1.q69.desc=Bronze Steam Turbine generates 32 RU.%n%nInput steam at a big hole and output RU at a turbine side.
+
+t1.q70.name=Convert steam to KU power
+t1.q70.desc=Some machines need KU power to work.%nBronze Steam Engine output 32KU/t.%n%nYou can input steams at big hole, and KU power will output at blue side.
+
+t1.q71.name=Botanical altar
+t1.q71.desc=Some items require a ritual by using this alter.%nHold items and click this alter for putting on.%nNeed mana to work.
+
+t1.q72.name=Input water for boilers
+t1.q72.desc=It’s generally that you can’t drain infinity water and use pipe to input now.%nYou can use this to imput water to boiler tank.
+
+t1.q73.name=Another convert recipes
+t1.q73.desc=Place below the mana pool, then you can make more items.
+
+t1.q74.name=Thermometer for crucible
+t1.q74.desc=You can see how temperature the crucible is.%nIt’s very useful, isn’t it?%n%nYou throw mercury to the crucible and melt, after that click with empty bottle, then you can get Mercury bottle.%n%nPlace to the crucible and you can see the temperature.
+
+t1.q75.name=Get sand
+t1.q75.desc=Throw cobblestone to Mana pool.
+
+t1.q76.name=More efficiency to cut down trees
+t1.q76.desc=Tall and straight woods are good for cutting down.
+
+t1.q77.name=Get Blaze rod
+t1.q77.desc=Find out Nether Fortress.
+
+t1.q78.name=Sifting table
+t1.q78.desc=You can get refined ore and byproducts from purified ore.
+
+t1.q79.name=Get 2x ores
+t1.q79.desc=You can get 2x crushed ore.%nThis modpack is skyblock so you need not to waste.
+
+t1.q80.name=Centrifuge
+t1.q80.desc=This machine is one of the main machine which is used for ore processing.
+
+t1.q81.name=Wash crushed ores and get more byproducts
+t1.q81.desc=You can wash crushed ores automatically.%nYou need to process sluice juice.
+
+t1.q82.name=Make Dense plates
+t1.q82.desc=You can compress plates and get dense plate.%n%nThis machine is unstable, so you had better upgrade steam amount and turbine.%n2x bronze steam turbine(96 steam) + brass turbine is better to use.%nAfter making strong turbine, you can replace them.
+
+t1.q83.name=Drain water
+t1.q83.desc=Drain water(1 block / 1000mB).%nYou need to place to pipes witch can transport over 1000mB or machines directly.%n%nIf you disabled infinity water by CodeChickenCore.cfg, you need to use this drain in the river or ocean water. It’s infinity to get water even if it’s disabled.
+
+t1.q84.name=Clean water
+t1.q84.desc=You can make Distilled Water from water and sluice juice.
+
+t1.q85.name=Water power
+t1.q85.desc=It’s used for some recipes.
+
+t1.q86.name=Create water
+t1.q86.desc=Create water by using mana in the mana tablet.%n%nNow you can get infinity water.
+
+t1.q87.name=Create dirt
+t1.q87.desc=Create dirt by using mana in the mana tablet.
+
+t1.q88.name=Glass bottle
+t1.q88.desc=Need for some recipes.
+
+t1.q89.name=Scoop and move water
+t1.q89.desc=You can transport low temperature liquid such as water.%n%nDon’t try to transport Lava.
+
+t1.q90.name=Get charcoal and creosote
+t1.q90.desc=Now you can get charcoal and creosote from wood logs.%n%nAfter input wood logs, use Ignition to coke oven.%nThere is a limit coke oven can hold creosote. If it reachs limit, coke oven will stop.%n%nYou can use hopper on the top for auto-input and below it for auto-output.%nUse fluid pipe below it and you can auto-output creosote.%nDon’t forget you need to connect by using wrench.
+
+t1.q91.name=Keep liquid
+t1.q91.desc=You need to keep Creosote and Distilled water.%nThere is a tank which keeps little water, but it’s not enough.%n%nThere are various walls such as wood, stainless steel and so on.%n%nWood wall can keep 432000mB liquid.%n%nYou can input liquid at any position but output must use valve.
+
+t1.q92.name=Soft hammer
+t1.q92.desc=You can use for many recipes.
+
+t1.q93.name=Saw
+t1.q93.desc=You can use for many recipes.
+
+t1.q94.name=Mix things
+t1.q94.desc=You can mix things.
+
+t1.q95.name=Carbon source
+t1.q95.desc=It’s too dificult to get carbon because of stocking coal.%n%nThen there is the another recipe that you can get carbon dust.%n%n[Mix] Charcoal + Quartz -\u003e Black Quartz%n[Centrifuge] Black Quartz -\u003e Carbon
+
+t1.q96.name=Dense copper plate
+t1.q96.desc=It’s used for crafting.
+
+t1.q97.name=New material : Brass
+t1.q97.desc=Cu : Zn = 3 : 1%n1160K
+
+t1.q98.name=Dense bronze plate
+t1.q98.desc=It’s used for crafting.
+
+t1.q99.name=Burned by fluid fuel
+t1.q99.desc=Use fluid fuels instead of solid fuels.%n%nYou can stop burning quickly if you place a block in front of this.
+
+t1.q100.name=Fire things
+t1.q100.desc=It’s used to fire for many times.
+
+t1.q101.name=Transport high temperature fluid
+t1.q101.desc=Wooden pipe will burn but this pipe won’t burn.
+
+t1.q102.name=Convert ingot to plate
+t1.q102.desc=You can convert ingot to plate without using crucible.
+
+t1.q103.name=Convert ingot to wire
+t1.q103.desc=If you use cutter wire, you only get 1x wire.%n%nThis machine will make 2x wire.
+
+#q104 is in t0
+
+t1.q105.name=Lathe
+t1.q105.desc=You can get rod from ingot. But there is little loss so it’s best to use crucible.
+
+t1.q106.name=Buzzsaw
+t1.q106.desc=It’s worked as saw.
+
+t1.q107.name=Go to the nether
+t1.q107.desc=Now you can go to the nether.%n%n You can find rocks of GT6 on the ground. This rock means it's possible that there is the ore vein near it.
+
+t1.q108.name=Oxygen reactions
+t1.q108.desc=You can separate special materials that reacts with Oxygen such as Tetrahedrite.
+
+t1.q109.name=Transform every form
+t1.q109.desc=You can transform material forms to every shape.
+
+t1.q110.name=Tranport items
+t1.q110.desc=You can transport items.%n%nItem pipe can’t output from chests, but if you use conveyor, you can do it.%n%nUse hopper, barrel auto-output or machine auto-output and transport items now.
+
+t1.q111.name=Extruder shape
+t1.q111.desc=There are many shapes.%nPlease note that steel extruder can transform few materials.%n%nAt least you need to make plate shape.
+
+t1.q112.name=Need more HU
+t1.q112.desc=This burning box outputs 96HU.
+
+t1.q113.name=Create more steam
+t1.q113.desc=This boiler outputs 192 steam.
+
+t1.q114.name=Shredder
+t1.q114.desc=You can shredder things such as refined ore.
+
+t1.q115.name=Get grass and leaves
+t1.q115.desc=You need grass and leaves for some recipes.%nOf course it’s useful for collecting wools.
+
+t1.q116.name=Remove tree leaves
+t1.q116.desc=You can remove tree leaves quickly.%nKeep pressing shift and rifht-click to work.
+
+t1.q117.name=Transport low temperature fluid
+t1.q117.desc=Use wrench to connect.%nWooden pipe will burn and disappear if there is fire near this.
+
+t1.q118.name=Keep large amount items
+t1.q118.desc=Do you need to keep many same items?%nYou can use this for keeping 5000 items.
+
+t1.q119.name=Rods need mana to work
+t1.q119.desc=It’s used for using crafting, using botania wand and moving Mana.
+
+t1.q120.name=Dense invar plate
+t1.q120.desc=It’s used for crafting.
+
+t1.q121.name=Barrel outputs items automatically
+t1.q121.desc=Click a barrel with this and barrel can output automatically.
+
+t1.q122.name=Remove a plate on the wrong place
+t1.q122.desc=You can separete plates and machines.
+
+t1.q123.name=Need more efficiency HU
+t1.q123.desc=Efficiency is 100%, it’s good for burning.
+
+t1.q124.name=For item pipes
+t1.q124.desc=It’s used for crafting.
+
+t1.q125.name=Take hot materials quickly!
+t1.q125.desc=You can take materials quickly from the mold without damages.
+
+t1.q126.name=Siftier
+t1.q126.desc=Yes, it’s automatic sifter
+
+t1.q127.name=Accept more steam
+t1.q127.desc=Bronze steam turbine only accept 24-96 steam but it isn’t enough.%n%nBrass steam turbine can accept 36-144 steam.
+
+t1.q128.name=Treated woods
+t1.q128.desc=You can use few Bath recipes in this machine.%nUse pipe to input fluid and click with items, then you can mix them and get finished products.
+
+t1.q129.name=Get Slimeball
+t1.q129.desc=It’s easy way to get slimeball.
+
+t1.q130.name=Increase slimeball
+t1.q130.desc=You can get infinity slimeball from cactus.
+
+t1.q131.name=Wire cutter
+t1.q131.desc=It’s used for crafting and connecting wire.
+
+t1.q132.name=Drain air
+t1.q132.desc=You can drain Air.
+
+#q133 is in t0.
+
+t1.q134.name=Best material for tools
+t1.q134.desc=Cobalt is the best material in low tier age.%nCobalt can be made Lv3 tools, so you can mine Diamond Ore with cobalt pickaxe.Best material for tools
+
+#########################
+# Tier2 Electric age LV #
+#########################
+
+t2.all.name=Tier2 - Electric Age LV (Stainless-Aluminium)
+t2.all.desc=Making aluminium is the first hurdle of GT6.
+
+t2.q135.name=Finished preparing for electric age
+t2.q135.desc=You have made almost basic machines that use steam.%nBut you can't keep steam so it's little bad.%n%nThen, let's make electric machines and batteries.
+
+t2.q136.name=New material : Stainless steel
+t2.q136.desc=Chromium : Manganese : Invar : Iron = 1 : 1 : 3 : 4%n= Chromium : Manganese : Nickel : Iron = 1 : 1 : 2 : 5%n2011K
+
+t2.q137.name=Portable tank
+t2.q137.desc=No Description
+
+t2.q138.name=Oil processing
+t2.q138.desc=No Description
+
+t2.q139.name=Mix materials
+t2.q139.desc=No Description
+
+t2.q140.name=Precipitate things
+t2.q140.desc=You can get rubber from this machine.
+
+########################
+# Automatic processing #
+########################
+
+ap.all.name=Automatic processing
+ap.all.desc=Make things automatically.
