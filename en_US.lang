@@ -412,7 +412,7 @@ Gregtania6Skyblock.Q55.name=Mana ingot
 Gregtania6Skyblock.Q55.desc=Throw iron ingot to mana pool and you can get manasteel.
 
 Gregtania6Skyblock.Q56.name=Anvil Bending
-Gregtania6Skyblock.Q56.desc=If you want to bend metal form, you can use anvil with hammer.%nThere are 3 types to work.%n%n1. Anvil Bending(Big)%nPlace a item and click the side with hammer where there isn't "NEI".  %n%n2. Anvil Bending%nPlace two items on the top of Anvil and click top with hammer.%n%n3. Anvil Bending(Small)%nPlace a item and click the side with hammer where there is "NEI".
+Gregtania6Skyblock.Q56.desc=If you want to bend metal form, you can use anvil with hammer.%nThere are 3 types to work.%n%n1. Anvil Bending(Big)%nPlace a item and click the side with hammer where there isn't a item.  %n%n2. Anvil Bending%nPlace two items on the top of Anvil and click top with hammer.%n%n3. Anvil Bending(Small)%nPlace a item and click the side with hammer where there is a item.
 
 Gregtania6Skyblock.Q57.name=Earth rune
 Gregtania6Skyblock.Q57.desc=It's used for some recipes.
@@ -529,7 +529,7 @@ Gregtania6Skyblock.Q94.name=Mix things
 Gregtania6Skyblock.Q94.desc=You can mix things.
 
 Gregtania6Skyblock.Q95.name=Carbon source
-Gregtania6Skyblock.Q95.desc=It's too dificult to get carbon because of stocking coal.%n%nThen there is the another recipe that you can get carbon dust.%n%n[Mix] Charcoal + Quartz -\u003e Black Quartz%n[Centrifuge] Black Quartz -\u003e Carbon
+Gregtania6Skyblock.Q95.desc=It's too dificult to get carbon because of stocking coal.%n%nThen there is the another recipe that you can get carbon dust.%n%n[Mix] Charcoal + Quartz -> Black Quartz%n[Centrifuge] Black Quartz -> Carbon
 
 Gregtania6Skyblock.Q96.name=Dense copper plate
 Gregtania6Skyblock.Q96.desc=It's used for crafting.
