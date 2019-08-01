@@ -209,19 +209,19 @@ jdoc.betterquesting.quest.properties.betterquesting.desc=BetterQuesting properti
 # Quest Line #
 ##############
 
-Gregtania6Skyblock.T0.name=Tier0 - Getting Started (-Stone)
+Gregtania6Skyblock.T0.name=Tier0 - Getting Started
 Gregtania6Skyblock.T0.desc=Learn basical information for living this world.
 
-Gregtania6Skyblock.T1.name=Tier1 - Steam Age (Bronze-Steel)
+Gregtania6Skyblock.T1.name=Tier1 - Steam Age
 Gregtania6Skyblock.T1.desc=Learn the beginning of GT6.
 
-Gregtania6Skyblock.T2.name=Tier2 - Electric Age LV (Stainless-Aluminium)
+Gregtania6Skyblock.T2.name=Tier2 - Electric Age LV
 Gregtania6Skyblock.T2.desc=Making aluminium is the first hurdle of GT6.
 
-Gregtania6Skyblock.T3.name=Tier3 - Electric Age MV (-Titanium)
+Gregtania6Skyblock.T3.name=Tier3 - Electric Age MV
 Gregtania6Skyblock.T3.desc=Let's make electric machine base.%nTitanium processing is the second hundle of GT6.
 
-Gregtania6Skyblock.T4.name=Tier4 - Electric Age HV (-Tungsten)
+Gregtania6Skyblock.T4.name=Tier4 - Electric Age HV
 Gregtania6Skyblock.T4.desc=Tungsten processing is the third hundle of GT6.
 
 Gregtania6Skyblock.T5.name=Tier5 - Electric Age EV
@@ -244,7 +244,7 @@ Gregtania6Skyblock.EO.desc=Let's find Gregtech6 Veins.
 #########
 
 Gregtania6Skyblock.Q0.name=Welcome to Gregtech6 Skyblock
-Gregtania6Skyblock.Q0.desc=This modpack is designed for learning Gregtech6(GT6) through quests.%n Please note that it'll change the process because of updating GT6, but I'm sure that you can learn the basic information.%n%n I wrote minimum quests that influences GT6 ages. There are many machines and items that are very useful, so please try and enjoy!%n%nBefore to play, you need to know you have a possibility of being screwed.%n1. §a§aDon't break all grass block.%n§f2. §a§aDon't lost items. Especially you have to keep living root.%n§f3. §aDon't break water.§f%n%n This modpack uses my modified mods for your comfortable game. I'm not good at Java (=Programming language) so it'll be caught many bugs. §aDon't report mod author when you get game crash.§f Report issues to my GitHub.%n%nNew function:%n* You can edit the letter you wrote in the search box of NEI. (Same with JEI)%n* You can see GT6 ore vein information in NEI when you click ores in NEI (It'll useful in the Nether and End)%n* You can see recipes when you click item icons in BetterQuesting quest screen.%n* Change GUI position in BetterQuesting.%n
+Gregtania6Skyblock.Q0.desc=This modpack is designed for learning Gregtech6(GT6) through quests.%n Please note that it'll change the process because of updating GT6, but I'm sure that you can learn the basic information.%n%n I wrote minimum quests that influences GT6 ages. There are many machines and items that are very useful, so please try and enjoy!%n%nBefore to play, you need to know you have a possibility of being screwed.%n1. §a§aDon't break all grass block.%n§f2. §a§aDon't lost items. Especially you have to keep living root.%n§f3. §aDon't break water.§f%n%n This modpack uses my modified mods for your comfortable game. I'm not good at Java (=Programming language) so it'll be caught many bugs. §aDon't report mod author when you get game crash.§f Report issues to my GitHub.%n%nNew function:%n* You can edit the letter you wrote in the search box of NEI. (Same with JEI)%n* You can see GT6 ore vein information in NEI when you click ores in NEI (It'll useful in the Nether and End)
 
 Gregtania6Skyblock.Q1.name=Get Cobblestone
 Gregtania6Skyblock.Q1.desc=There is no stone. This island is too small to live.%nHow to live and develop here?%n%nNo ploblem. You can create rocks from dirt infinity.%nWhen you Shift+Right click to dirt, you can get rocks.
@@ -649,7 +649,7 @@ Gregtania6Skyblock.Q134.name=Best material for tools
 Gregtania6Skyblock.Q134.desc=Cobalt is the best material in low tier age.%nCobalt can be made Lv3 tools, so you can mine Diamond Ore with cobalt pickaxe.
 
 Gregtania6Skyblock.Q135.name=Finished preparing for electric age
-Gregtania6Skyblock.Q135.desc=You have made almost basic machines that use steam.%nBut you can't keep steam so it's little bad.%n%nThen, let's make electric machines and batteries.
+Gregtania6Skyblock.Q135.desc=You have made almost basic machines that use steam.%nBut you can't keep steam so it's little bad.%n%nThen, let's make electric machines and batteries.%n%nIn this GT6 version, you can make Carbon Crucible.%nBut I change its recipe because it's OP.
 
 Gregtania6Skyblock.Q136.name=New material : Stainless steel
 Gregtania6Skyblock.Q136.desc=Chromium : Manganese : Invar : Iron = 1 : 1 : 3 : 4%n= Chromium : Manganese : Nickel : Iron = 1 : 1 : 2 : 5%n2011K
@@ -658,10 +658,10 @@ Gregtania6Skyblock.Q137.name=Portable Drum
 Gregtania6Skyblock.Q137.desc=This Drum can keep more high temperature fluid or gas.
 
 Gregtania6Skyblock.Q138.name=Oil processing
-Gregtania6Skyblock.Q138.desc=You need to get plastic for making circuit plate.%n you need to process oil and get plustic and many fuels.%n%nPlace Heat Acceptor 3 * 3 on the bottom row.%nPlace Distillation Tower on the center of second to bottom row instead of Distillation Tower Part.%nPlace Distillation Tower Part on them.%n%n〇=Distillation Tower Part%n@=Distillation Tower%nH=Heat Acceptor%nB=Burning Box(You can put many Burning Box) 64-256HU%n%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇@〇%nHHH%nBBB
+Gregtania6Skyblock.Q138.desc=You need to get plastic for making circuit plate.%nYou need to process oil and get the intermediate material of plustic and many fuels.%n%nThere are 2 ways to get Oil.%n1. Process Oil Shale and get Oil Shade Dust, then process it in Coke Oven.%n2. Centrifuge Soulsand.%n%nPlace Heat Acceptor 3 * 3 on the bottom row.%nPlace Distillation Tower on the center of second to bottom row instead of Distillation Tower Part.%nPlace Distillation Tower Part on them.%n%n〇=Distillation Tower Part%n@=Distillation Tower%nH=Heat Acceptor%nB=Burning Box(You can put many Burning Box) 64-256HU%n%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇@〇%nHHH%nBBB
 
 Gregtania6Skyblock.Q139.name=Mix materials
-Gregtania6Skyblock.Q139.desc=You need this machie for making aluminium.%n%nYou have used the crucible for many materials, but now you can get mixed dust such as bronze.
+Gregtania6Skyblock.Q139.desc=You have used the crucible for many materials, but now you can get mixed dust such as bronze.
 
 Gregtania6Skyblock.Q140.name=Precipitate things
 Gregtania6Skyblock.Q140.desc=You can get rubber from this machine.
@@ -673,7 +673,7 @@ Gregtania6Skyblock.Q142.name=Sulfur Trioxide
 Gregtania6Skyblock.Q142.desc=You can get Sulfur Trioxide in Mixer.%n1.Air or Nether Air%n2.Sulfur Dioxide%n3.Platinum Dust%n%nYou can get Platinum Dust by processing Nickel Ore.
 
 Gregtania6Skyblock.Q143.name=Sulfuric Acid
-Gregtania6Skyblock.Q143.desc=You can get Sulfur Trioxide in Mixer.%n%nMix Sulfur Trioxide and water.
+Gregtania6Skyblock.Q143.desc=You can get Sulfur Acid in Mixer.%n%nMix Sulfur Trioxide and water.
 
 Gregtania6Skyblock.Q144.name=Hydrogen Fluoride
 Gregtania6Skyblock.Q144.desc=You can get Hydrogen Fluorite in Mixer.%n%n1.Mix Fluorite and Hydrogen.%n2.Mix Fluorite Dust and Sulfuric Acid.
@@ -717,7 +717,7 @@ Gregtania6Skyblock.Q156.desc=Get Molten Aluminium Fluoride by using Crucible.
 Gregtania6Skyblock.Q157.name=Alumina
 Gregtania6Skyblock.Q157.desc=You can get by many ores but I suggest it's best to use Bauxite and Almandine Ore.
 
-Gregtania6Skyblock.Q158.name=Process oil and get plastic
+Gregtania6Skyblock.Q158.name=Get plastic
 Gregtania6Skyblock.Q158.desc=Use extruder and get plastic sheet.
 
 Gregtania6Skyblock.Q159.name=Press things
@@ -733,8 +733,7 @@ Gregtania6Skyblock.Q162.name=Circuit plate for tier1 - 2
 Gregtania6Skyblock.Q162.desc=Used for low tier circuit.
 
 Gregtania6Skyblock.Q163.name=Circuit board with parts
-Gregtania6Skyblock.Q163.desc=Press circuit board(Copper) and Circuit Part(Basic) -> T1 Circuit
-Press circuit board(Copper) and Circuit Part(Good) -> T2 Circuit
+Gregtania6Skyblock.Q163.desc=Press circuit board(Copper) and Circuit Part(Basic) -> T1 Circuit%nPress circuit board(Copper) and Circuit Part(Good) -> T2 Circuit
 
 Gregtania6Skyblock.Q164.name=Sulfur Dioxide
 Gregtania6Skyblock.Q164.desc=There is several ways to get Sulfur Dioxide.%n%n1. Use materials which contains Sulfur and Air in Roaster.%n2. Centrifuge Nether Air.
@@ -866,7 +865,7 @@ Gregtania6Skyblock.Q206.name=Magnesium
 Gregtania6Skyblock.Q206.desc=Centrifuging Sapphire is better choice in MV machine.%nIf you get HV Electrolyzer, you can process Pyrope to get.
 
 Gregtania6Skyblock.Q207.name=Finished making Titanium
-Gregtania6Skyblock.Q207.desc=Mix Titanium Tetrachloride and Magnesium Dust in Bath.
+Gregtania6Skyblock.Q207.desc=Mix Titanium Tetrachloride and Magnesium Dust in Bath.%n%nMagnesium Chloride can be used for making Plastic.
 
 Gregtania6Skyblock.Q208.name=MV Electric CO2 Laser
 Gregtania6Skyblock.Q208.desc=Need LU for Laser Engraver to work.
@@ -962,7 +961,7 @@ Gregtania6Skyblock.Q238.name=Finished making Tier4 Circuit - EV
 Gregtania6Skyblock.Q238.desc=You have to use Soldering Alloy to make.
 
 Gregtania6Skyblock.Q239.name=Get into EV electric age
-Gregtania6Skyblock.Q239.desc=No Description
+Gregtania6Skyblock.Q239.desc=Prepare GT6 End Contents.
 
 Gregtania6Skyblock.Q240.name=Tungsten Crucible (~4618K)
 Gregtania6Skyblock.Q240.desc=It can keep 4618K but it'll be used for Smelter.
@@ -1004,10 +1003,10 @@ Gregtania6Skyblock.Q252.name=Magnetic things
 Gregtania6Skyblock.Q252.desc=Some materials need Polarizer to be magnetic.
 
 Gregtania6Skyblock.Q253.name=Gregtech6 End Contents
-Gregtania6Skyblock.Q253.desc=You mastered almost Gregtech6.%nNow I'll introduce Gregtech6 endcontents.%n%nThere isn't IV batteries so you need to make EV batteries.%nI introduce some IV generators but it's better to convert EV.%n%nPlease note that Gregtech6 is just developping and it's not complete. %nMr.Gregorius said told me thet he plans to add new large multiblock machines and voltage machines.%nIn his forum, everyone discuss about Gregtech6 end contents.%n%nDo you think it's end of Gregtech6 if you finished this modpack quest? No, there are many another machines and future in Gregtech6.
+Gregtania6Skyblock.Q253.desc=You mastered almost Gregtech6.%nNow I'll introduce Gregtech6 end contents.%n%nThere isn't IV batteries so you need to make EV batteries.%nI introduce some IV generators but it's better to convert EV.%n%nPlease note that Gregtech6 is just developping and it's not complete. %nMr.Gregorius said told me thet he plans to add new large multiblock machines and voltage machines.%nIn his forum, everyone discuss about Gregtech6 end contents.%n%nDo you think it's end of Gregtech6 if you finished this modpack quest? No, there are many another machines and future in Gregtech6.
 
 Gregtania6Skyblock.Q254.name=Matter machines
-Gregtania6Skyblock.Q254.desc=Matter machines are not complete. %nMatter machines don't work in this Gregtech6 version.%n%nI write quests about this as well as I could.
+Gregtania6Skyblock.Q254.desc=Matter machine can duplicate materials by EU and matters.%nBut it needs a lot of costs.%n%nLet's get the GT6 end content!
 
 Gregtania6Skyblock.Q255.name=New material : Kanthal
 Gregtania6Skyblock.Q255.desc=Iron : Aluminium : Chrome = 1 : 1 : 1%n2011K
@@ -1082,7 +1081,7 @@ Gregtania6Skyblock.Q278.name=Create matter
 Gregtania6Skyblock.Q278.desc=You can get charged and neutral matter from any materials.%n%nIf ionization energy is low, you can get more matter.%nIt means if group is low and period is high in the periodio table, you can get more matter.
 
 Gregtania6Skyblock.Q279.name=Matter age
-Gregtania6Skyblock.Q279.desc=You can get materials from matter in the future.%nPlease wait Gregtech6 update.
+Gregtania6Skyblock.Q279.desc=You can get materials from matter.
 
 Gregtania6Skyblock.Q280.name=New material : Titanium
 Gregtania6Skyblock.Q280.desc=Titanium = 1%n1941K
@@ -1250,7 +1249,7 @@ Gregtania6Skyblock.Q334.name=Battery box for EV
 Gregtania6Skyblock.Q334.desc=It can keep EV EU power by using batteries.
 
 Gregtania6Skyblock.Q335.name=Get little QU power
-Gregtania6Skyblock.Q335.desc=I can’t help it.
+Gregtania6Skyblock.Q335.desc=There isn't T5 Scanner, I can’t help it.
 
 Gregtania6Skyblock.Q336.name=EV Electric Laser Emitter
 Gregtania6Skyblock.Q336.desc=It's used for Scanner, I don't know why there isn't T5.
@@ -1344,3 +1343,141 @@ Gregtania6Skyblock.Q365.desc=Head off the situation that you break all grass blo
 
 Gregtania6Skyblock.Q366.name=Load server quests
 Gregtania6Skyblock.Q366.desc=In normal situation you don't use this command.
+
+Gregtania6Skyblock.Q367.name=Get Propylene and Ethylene
+Gregtania6Skyblock.Q367.desc=These gases are used for making Plastic.
+
+Gregtania6Skyblock.Q368.name=Separate materials
+Gregtania6Skyblock.Q368.desc=This machine is used for separating Impure Bedrock
+
+Gregtania6Skyblock.Q369.name=Steam Cracker
+Gregtania6Skyblock.Q369.desc=Propane/Butane + Steam -> Propylene + Ethylene
+
+Gregtania6Skyblock.Q370.name=Catalytic Cracker
+Gregtania6Skyblock.Q370.desc=Fuel Oil/Petrol + Hydrogen + Platinum -> Propylene + Ethylene
+
+Gregtania6Skyblock.Q371.name=Products from Oil
+Gregtania6Skyblock.Q371.desc=There are many products from processing oil.%n%n1st(Bottom): Items(Tiny Piles)%n2nd: Lubricant%n3rd: Fuel Oil%n4th: Diesel%n5th: Kerosine%n6th: Petrol%n7th: Butane%n8th(Top): Propane
+
+Gregtania6Skyblock.Q372.name=New material: Tungsten Steel
+Gregtania6Skyblock.Q372.desc=Tungsten : Steel = 1 : 1%n2870K
+
+Gregtania6Skyblock.Q373.name=Get Adamantium
+Gregtania6Skyblock.Q373.desc=Process Impure Bedrock to get Adamantium.
+
+Gregtania6Skyblock.Q374.name=The way to The End
+Gregtania6Skyblock.Q374.desc=In this world, there is no stronghold.%nHowever, you can make End portal.%n%nIf you just only want to enjoy GT6, you don't have to play.%nYou have already mastered GT6!
+
+Gregtania6Skyblock.Q375.name=Prepare summoning Gaia
+Gregtania6Skyblock.Q375.desc=You need these items.
+
+Gregtania6Skyblock.Q376.name=Ritual of Gaia
+Gregtania6Skyblock.Q376.desc=Let's defeat Guardian of Gaia.%n%nHave you made the battle field?%nThe ground of the battle field must not be Air.%nWater is useful to prevent teleporting.%n%nIf you finish preparing, click beacon with Terrasteel.
+
+Gregtania6Skyblock.Q377.name=Getting into the End
+Gregtania6Skyblock.Q377.desc=Now you can get into the End!%nHowever, Ender Dragon is not vanilla one, but Hardcore Ender Expansion one.%nDon't get into the End without preparing!%n%nIf you build up End Portal, you need place them from the center of End Portal, inside of End Portal circle.
+
+Gregtania6Skyblock.Q378.name=The End...?
+Gregtania6Skyblock.Q378.desc=That dragon breaks End Stone, thunder hit to you, caught blindness, and many Enderman attack to you.%n%nDo your best. Never give up!
+
+Gregtania6Skyblock.Q379.name=Final battle
+Gregtania6Skyblock.Q379.desc=Defeat cheat dragon. There is this dragon where it's 10000 block far away.
+
+Gregtania6Skyblock.Q380.name=Draconic Reactor parts - 2
+Gregtania6Skyblock.Q380.desc=It's used for draconic reactor.
+
+Gregtania6Skyblock.Q381.name=Get Draconium power
+Gregtania6Skyblock.Q381.desc=There are Draconium Ore in the End, and process Draconium Dust in Extruder.
+
+Gregtania6Skyblock.Q382.name=Draconic Core
+Gregtania6Skyblock.Q382.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q383.name=Wyvern Energy Core
+Gregtania6Skyblock.Q383.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q384.name=Wyvern Core
+Gregtania6Skyblock.Q384.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q385.name=Wyvern Helm
+Gregtania6Skyblock.Q385.desc=It's used for crafting. Oh sorry I missed it's great equipment.
+
+Gregtania6Skyblock.Q386.name=Wyvern Chestplate
+Gregtania6Skyblock.Q386.desc=It's used for crafting. Oh sorry I missed it's great equipment.
+
+Gregtania6Skyblock.Q387.name=Wyvern Leggings
+Gregtania6Skyblock.Q387.desc=It's used for crafting. Oh sorry I missed it's great equipment.
+
+Gregtania6Skyblock.Q388.name=Wyvern Boots
+Gregtania6Skyblock.Q388.desc=It's used for crafting. Oh sorry I missed it's great equipment.
+
+Gregtania6Skyblock.Q389.name=Infuse RF power
+Gregtania6Skyblock.Q389.desc=You can infuse RF to draconic quipment.
+
+Gregtania6Skyblock.Q390.name=Awaked Draconium Block
+Gregtania6Skyblock.Q390.desc=Place 4 Charged Draconium Block. Next, throw Dragon Heart above them. Then, Place TNT and fire it.
+
+Gregtania6Skyblock.Q391.name=Awaked Core
+Gregtania6Skyblock.Q391.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q392.name=Draconic Energy Core
+Gregtania6Skyblock.Q392.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q393.name=Draconic Helm
+Gregtania6Skyblock.Q393.desc=You can add Night Vision effect by setting(Default key: C).
+
+Gregtania6Skyblock.Q394.name=Draconic Chestplate
+Gregtania6Skyblock.Q394.desc=You can fly! Flight setting can be changed by setting(Default key: C).
+
+Gregtania6Skyblock.Q395.name=Draconic Leggings
+Gregtania6Skyblock.Q395.desc=You can change move speed by setting(Default key: C).
+
+Gregtania6Skyblock.Q396.name=Draconic Boots
+Gregtania6Skyblock.Q396.desc=You can change jump height by setting(Default key: C).
+
+Gregtania6Skyblock.Q397.name=Wyvern Flux Capacitor
+Gregtania6Skyblock.Q397.desc=It's portable capacitor.
+
+Gregtania6Skyblock.Q398.name=Draconic Flux Capacitor
+Gregtania6Skyblock.Q398.desc=It's portable capacitor.
+
+Gregtania6Skyblock.Q399.name=Upgrade Modifier
+Gregtania6Skyblock.Q399.desc=You can upgrade Draconic equipments.
+
+Gregtania6Skyblock.Q400.name=Draconic Reactor parts - 3
+Gregtania6Skyblock.Q400.desc=It's used for draconic reactor.
+
+Gregtania6Skyblock.Q401.name=Draconic Reactor parts - 1
+Gregtania6Skyblock.Q401.desc=It's used for draconic reactor.
+
+Gregtania6Skyblock.Q402.name=Let's build up Draconic Reactor
+Gregtania6Skyblock.Q402.desc=1. Build up.%n2. Click Reactor Stabilizer and open GUI.%n3. Input Awaked Draconium Block and turn on.%n4. Input RF to Reactor Energy Injector.%n5. Let's explode!%n%nHow to build: %n1. Place Reactor Energy Injector%n%n2. Place 2 temp blocks above it, and put Draconic Reactor Core above it. Then break 2 temp blocks.%n%n3. Place 4 temp blocks from Draconic Core to North, South, East, West, and place Reactor Stabilizer to it. Then break each 4 temp blocks. Don't forget that Reactor Stabilizer face to Draconic Reactor Core.
+
+Gregtania6Skyblock.Q403.name=Advanced Warp item
+Gregtania6Skyblock.Q403.desc=Shift-right click to open GUI. You can set many locations, but you need Ender Pearls as fuel.
+
+Gregtania6Skyblock.Q404.name=Warp Item
+Gregtania6Skyblock.Q404.desc=Shift-right click to save location.%nIf you right-click with this, you can warp.%n%nDon't forget you can only save 1 location.
+
+Gregtania6Skyblock.Q405.name=Nanotechnology
+Gregtania6Skyblock.Q405.desc=This machine is used for making Graphene, but in this modpack, you use this machine for making End Portal.%n%nGases can be made by processing Ender Air in Centrifuge.
+
+Gregtania6Skyblock.Q406.name=New material: Tungsten Carbide
+Gregtania6Skyblock.Q406.desc=Tungsten : Carbon = 1 : 1%n3695K
+
+Gregtania6Skyblock.Q407.name=Strong Extruder
+Gregtania6Skyblock.Q407.desc=Low heat extruder can't process many materials, so make advanced one.
+
+Gregtania6Skyblock.Q408.name=Extruder Shape
+Gregtania6Skyblock.Q408.desc=Extruder needs shape to process.
+
+Gregtania6Skyblock.Q409.name=Convert EU to RF
+Gregtania6Skyblock.Q409.desc=Need RF for your equipments.
+
+Gregtania6Skyblock.Q410.name=Ender Air
+Gregtania6Skyblock.Q410.desc=You need Ender Air before going to the End.%n%nMelt Ender Pearl and canning it with glass bottle.%nThen use canning machine again and get Ender Air.
+
+Gregtania6Skyblock.Q411.name=Charge RF to Draconium Block
+Gregtania6Skyblock.Q411.desc=Put Draconium Block into Energy Infuser and charge 100,000,000RF.
+
+Gregtania6Skyblock.Q412.name=Summon Ender Dragon
+Gregtania6Skyblock.Q412.desc=You need Dragon Heart to get Draconium equipments.%nThen, let's summon Ender Dragon again!%n%nPlease see FTB Wiki, it's difficult to explain.%nhttps://ftbwiki.org/Ritual_of_Draconic_Resurrection
