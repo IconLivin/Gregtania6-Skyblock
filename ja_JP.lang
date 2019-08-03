@@ -1,4 +1,4 @@
-#Gregtania6 Skyblock 日本語化 v1.0.8
+#Gregtania6 Skyblock 日本語化 v1.1.1
 
 ##################
 # BetterQuesting #
@@ -234,11 +234,14 @@ Gregtania6Skyblock.T6.desc=GT6のエンドコンテンツに備え多くの電�
 Gregtania6Skyblock.T7.name=Tier7 - 無限に発展
 Gregtania6Skyblock.T7.desc=無限に発展していく...可能性は無限大です
 
+Gregtania6Skyblock.LM.name=大型機械
+Gregtania6Skyblock.LM.desc=さらなる速さを! さらなる力を!
+
 Gregtania6Skyblock.AP.name=自動化処理
 Gregtania6Skyblock.AP.desc=色々と自動化していこう
 
-Gregtania6Skyblock.EO.name=鉱石交換
-Gregtania6Skyblock.EO.desc=GT6の鉱脈を見つけよう
+#Gregtania6Skyblock.EO.name=鉱石交換
+#Gregtania6Skyblock.EO.desc=GT6の鉱脈を見つけよう
 
 
 #########
@@ -246,7 +249,7 @@ Gregtania6Skyblock.EO.desc=GT6の鉱脈を見つけよう
 #########
 
 Gregtania6Skyblock.Q0.name=Gregtech6 Skyblockへようこそ
-Gregtania6Skyblock.Q0.desc=*日本人向け: ItemDelocalizerをクライアント側に導入推奨です%nhttps://forum.minecraftuser.jp/viewtopic.php?f=13&t=30632%n%nGregtech6解説作りました。%nhttps://monatann.azurewebsites.net/mod/gregtech6/gregtech6.php%n%nこのModpackはGregtech6(GT6)をクエストを通じて学ぼうとデザインされたものです。%nGT6のアップデートにより処理方法が変わることをご了承下さい。ですが、基本的な情報については学べるでしょう。%n%n私はGT6の時代に影響するようなクエストを最低限書きました。他にも多くの便利な機械やアイテムがあるので試して楽しんでください。%n%nプレイする前にあなたはゲームが詰む可能性があることに理解してください。%n1. §a§a全ての草ブロックを破壊しないでください。%n2.  §a§aアイテムロストをしないようにしてください。特にLiving Rootを失くさないよう気を付けてください。%n§f3. §a水源を潰さないようにしてください。§f%n%n このModpackでは利便性のために私の改造版Modが入っています。私はJava(=プログラミング言語)が得意ではないのでバグを引き起こす可能性があります。§aもしクラッシュした場合オリジナルの作者にバグ報告をしないようにしてください。§f私のGitHubにバグ報告してください。%n%n新しい機能:%n* NEIの検索にて前の文字を編集できます。(JEIと同様)%n* NEIにて鉱石をクリックするとGT6の鉱脈情報を見れます。(NetherとEndにて役立ちます)%n* BetterQuestingのクエスト画面でアイテムのアイコンをクリックするとレシピを見れます。
+Gregtania6Skyblock.Q0.desc=*日本人向け: %nGregtech6解説作りました。%nhttps://monatann.azurewebsites.net/mod/gregtech6/gregtech6.php%n%nこのModpackはGregtech6(GT6)をクエストを通じて学ぼうとデザインされたものです。%nGT6のアップデートにより処理方法が変わることをご了承下さい。ですが、基本的な情報については学べるでしょう。%n%n私はGT6の時代に影響するようなクエストを最低限書きました。他にも多くの便利な機械やアイテムがあるので試して楽しんでください。%n%nプレイする前にあなたはゲームが詰む可能性があることに理解してください。%n1. §a§a全ての草ブロックを破壊しないでください。%n2.  §a§aアイテムロストをしないようにしてください。特にLiving Rootを失くさないよう気を付けてください。%n§f3. §a水源を潰さないようにしてください。§f%n%n このModpackでは利便性のために私の改造版Modが入っています。私はJava(=プログラミング言語)が得意ではないのでバグを引き起こす可能性があります。§aもしクラッシュした場合オリジナルの作者にバグ報告をしないようにしてください。§f私のGitHubにバグ報告してください。%n%n新しい機能:%n* NEIの検索にて前の文字を編集できます。(JEIと同様)%n* NEIにて鉱石をクリックするとGT6の鉱脈情報を見れます。(NetherとEndにて役立ちます)%n* BetterQuestingのクエスト画面でアイテムのアイコンをクリックするとレシピを見れます。
 
 Gregtania6Skyblock.Q1.name=丸石の入手
 Gregtania6Skyblock.Q1.desc=この島は石は無くとても住むには狭いです。%nではどのようにして暮らし発展していくのか。%n%n問題ありません。土から石を無限に作ることができます。%n土ブロックにShift+右クリックをすると石が手に入ります。
@@ -462,7 +465,7 @@ Gregtania6Skyblock.Q71.name=Botaniaの祭壇
 Gregtania6Skyblock.Q71.desc=いくつかのアイテムはこの祭壇で儀式をする必要があります%nアイテムをこの祭壇にクリックして置きます%n動作にマナが必要です
 
 Gregtania6Skyblock.Q72.name=Boilerに水を搬入
-Gregtania6Skyblock.Q72.desc=恐らく今は無限水源の水をパイプで搬入することができないでしょう%nこれを使ってBoilerに水を搬入できます
+Gregtania6Skyblock.Q72.desc=恐らく今は無限水源の水をパイプで搬入することができないでしょう%nこれを使って水バケツでクリックすることでBoilerに水を搬入できます
 
 Gregtania6Skyblock.Q73.name=その他の変換レシピ
 Gregtania6Skyblock.Q73.desc=マナプールの下に置くと多くのアイテムを作れるようになります
@@ -833,7 +836,7 @@ Gregtania6Skyblock.Q195.name=LV Lead-Acid battery
 Gregtania6Skyblock.Q195.desc=64000EU蓄電できます
 
 Gregtania6Skyblock.Q196.name=Ore Finder Wand
-Gregtania6Skyblock.Q196.desc=GT6の鉱脈を見つけるのは難しいですがこのModpackには特別なModがあります(GTNewHorizons Teamがほぼすべてのコードを書いてます 感謝)%n%nシフト右クリを地面にして見つけたい鉱石を入れます%n%nもし鉱脈が4*4*40 (x*y*z)ブロック以内にある場合知らせてくれます%n%n鉱石は完全に同じものでなくてはいけません%n(石の鉱石でネザーブロックの鉱石は探せません)
+Gregtania6Skyblock.Q196.desc=GT6の鉱脈を見つけるのは難しいですがこのModpackには特別なModがあります(GTNewHorizons Teamがほぼすべてのコードを書いてます 感謝)%n%nシフト右クリを地面にして見つけたい鉱石を入れます%n%nもし鉱脈が4*4*40 (x*z*y)ブロック以内にある場合知らせてくれます%n%nNEI上で鉱石をクリックすると鉱石情報が見れます
 
 Gregtania6Skyblock.Q197.name=MV電気時代突入
 Gregtania6Skyblock.Q197.desc=実をいうともう明確な発展順はありません%n多くのアイテムやTierを飛ばしてもよいです
@@ -1312,29 +1315,29 @@ Gregtania6Skyblock.Q354.desc=るつぼの処理を自動化しましょう%n%nth
 Gregtania6Skyblock.Q355.name=Crucibleに素材を投げ入れる
 Gregtania6Skyblock.Q355.desc=るつぼ自動化に必要な物の一つです
 
-Gregtania6Skyblock.Q356.name=Nether Quartz鉱脈
-Gregtania6Skyblock.Q356.desc=Ore Finder Wandの為にあります
+#Gregtania6Skyblock.Q356.name=Nether Quartz鉱脈
+#Gregtania6Skyblock.Q356.desc=Ore Finder Wandの為にあります
 
-Gregtania6Skyblock.Q357.name=Copper鉱脈
-Gregtania6Skyblock.Q357.desc=Ore Finder Wandの為にあります
+#Gregtania6Skyblock.Q357.name=Copper鉱脈
+#Gregtania6Skyblock.Q357.desc=Ore Finder Wandの為にあります
 
-Gregtania6Skyblock.Q358.name=Nickel鉱脈
-Gregtania6Skyblock.Q358.desc=Ore Finder Wandの為にあります
+#Gregtania6Skyblock.Q358.name=Nickel鉱脈
+#Gregtania6Skyblock.Q358.desc=Ore Finder Wandの為にあります
 
-Gregtania6Skyblock.Q359.name=Redstone鉱脈
-Gregtania6Skyblock.Q359.desc=Ore Finder Wandの為にあります
+#Gregtania6Skyblock.Q359.name=Redstone鉱脈
+#Gregtania6Skyblock.Q359.desc=Ore Finder Wandの為にあります
 
-Gregtania6Skyblock.Q360.name=Titanium鉱脈
-Gregtania6Skyblock.Q360.desc=Ore Finder Wandの為にあります
+#Gregtania6Skyblock.Q360.name=Titanium鉱脈
+#Gregtania6Skyblock.Q360.desc=Ore Finder Wandの為にあります
 
-Gregtania6Skyblock.Q361.name=Sulfer鉱脈
-Gregtania6Skyblock.Q361.desc=Ore Finder Wandの為にあります
+#Gregtania6Skyblock.Q361.name=Sulfer鉱脈
+#Gregtania6Skyblock.Q361.desc=Ore Finder Wandの為にあります
 
-Gregtania6Skyblock.Q362.name=Limonite鉱脈
-Gregtania6Skyblock.Q362.desc=Ore Finder Wandの為にあります
+#Gregtania6Skyblock.Q362.name=Limonite鉱脈
+#Gregtania6Skyblock.Q362.desc=Ore Finder Wandの為にあります
 
-Gregtania6Skyblock.Q363.name=Gregtechの鉱脈を見つけよう
-Gregtania6Skyblock.Q363.desc=Ore Finder Wandの為にネザーラックの鉱石を交換できます%n%nNEI上で鉱石をクリックすると鉱石情報が見れます
+#Gregtania6Skyblock.Q363.name=Gregtechの鉱脈を見つけよう
+#Gregtania6Skyblock.Q363.desc=Ore Finder Wandの為にネザーラックの鉱石を交換できます%n%nNEI上で鉱石をクリックすると鉱石情報が見れます
 
 Gregtania6Skyblock.Q364.name=Craft pattern
 Gregtania6Skyblock.Q364.desc=自動クラフトに使います
@@ -1482,3 +1485,39 @@ Gregtania6Skyblock.Q411.desc=Draconium BlockをEnergy Infuserの中に入れ100,
 
 Gregtania6Skyblock.Q412.name=エンドラ召還
 Gregtania6Skyblock.Q412.desc=ドラコ装備のためにDragon Heartが必要です。%nさあエンドラを再召喚しましょう。%n%nFTB Wikiを見てください。説明が難しいです。%nhttps://ftbwiki.org/Ritual_of_Draconic_Resurrection
+
+Gregtania6Skyblock.Q413.name=バケツ
+Gregtania6Skyblock.Q413.desc=高温の液体を運べます
+
+Gregtania6Skyblock.Q414.name=Large Crusher
+Gregtania6Skyblock.Q414.desc=エネルギー消費量が増えることなく同時に64個処理できます。%nRUを横の穴より入れ、アイテムをCrusher Wheelsから入れ、Large Crusherの下からアイテムを搬出できます。%n%nL: Large Crusher%nW: Tungstensteel Wall%nS: Crusher Wheels%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW W W W W%nW W W W W%nW W W W W%nW W L W W
+
+Gregtania6Skyblock.Q415.name=Large Sluice
+Gregtania6Skyblock.Q415.desc=エネルギー消費量が増えることなく同時に64個処理できます。%nRUを横の穴より入れ、Crusher Wheelsの反対側のSluice Partの真ん中からアイテムと液体を搬入でき、Large Shifterの下から液体とアイテムを搬出できる。%n%nL: Large Shifter%nW: Titanium Wall%nS: Sluice Wheels%n%nS S S S S S S%nS S S S S S S%nS S S S S S S%n%nW W W W W W W%nW W W W W W W%nW W W W W W W%n%nW W W W W W W%nL W W W W W W%nW W W W W W W
+
+Gregtania6Skyblock.Q424.name=Large Centrifuge
+Gregtania6Skyblock.Q424.desc=エネルギー消費量が増えることなく同時に64個処理できます。%nRUを底の穴より入れ、どこからでもアイテムを搬入でき、Large Centrifugeの下からアイテムが搬出できます。%n%nL: Large Centrifuge%nP: Centrifuge Part%n%nP P P%nP P P%nP P P%n%nP P P%nP P P%nP P P%n%nP P P%nP P P%nP L P
+
+Gregtania6Skyblock.Q425.name=Large Shredder
+Gregtania6Skyblock.Q425.desc=エネルギー消費量が増えることなく同時に64個処理できます。%nRUを横の穴より入れ、Shredder Wheelsからアイテムを搬入し、Large Shredderの下からアイテムを搬出します。%n%nL: Large Shredder%nW: Tungstensteel Wall%nS: Shredder Wheels%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW W W W W%nW W W W W%nW W W W W%nW W L W W
+
+Gregtania6Skyblock.Q426.name=Implosion Compressor
+Gregtania6Skyblock.Q426.desc=TNTを使い素材を圧縮し大きいものを作ります。%nどこからでもアイテムを搬入でき、Implosion Compressorの下からアイテムを搬出します。%n%nL: Implosion Compressor%nP: Dense Tungstensteel Wall%nA: Air%n%nP P P%nP P P%nP P P%n%nP P P%nP A P%nP P P%n%nP P P%nP P P%nP L P
+
+Gregtania6Skyblock.Q427.name=Large Electrolyzer
+Gregtania6Skyblock.Q427.desc=エネルギー消費量が増えることなく同時に64個処理できます。%nEUとアイテムを底のブロックから搬入でき、Large Electrolyzerの下からアイテムを搬出できます。%n%nL: Large Electrolyzer%nE: Electrolyzer Part%n%nE E E%nE E E%nE E E%n%nE E E%nE E E%nE L E
+
+Gregtania6Skyblock.Q428.name=Large Coagulator Array
+Gregtania6Skyblock.Q428.desc=エネルギー消費量が増えることなく同時に64個処理できます。%nどこからでもアイテムを搬入でき、Large Coagulator Arrayの下からアイテムを搬出できます。%n%nL: Large Coagulator Array%nS: Stainless Steel Wall%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S S S S%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S L S S
+
+Gregtania6Skyblock.Q429.name=Large Bathing Vat
+Gregtania6Skyblock.Q429.desc=エネルギー消費量が増えることなく同時に64個処理できます。%nどこからでもアイテムを搬入でき、Large Bathing Vatの下からアイテムを搬出できます。%n%nL: Large Bathing Vat%nS: Stainless Steel Wall%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S S S S%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S L S S
+
+Gregtania6Skyblock.Q430.name=Large Batch Mixer
+Gregtania6Skyblock.Q430.desc=同時に256個処理できます。%nRUを上か下の穴から入れ、上のブロックからアイテムを搬入でき、Large Batch Mixerの下からアイテムを搬出できます。%n%nL: Large Batch Mixer%nS: Stainless Steel Wall%n%nS S S%nS S S%nS S S%n%nS S S%nS S S%nS L S
+
+Gregtania6Skyblock.Q431.name=Large Electric Oven
+Gregtania6Skyblock.Q431.desc=エネルギー消費量が増えることなく同時に64個処理できます。%nLarge Nichrome Coilを除きどこからでもアイテムとEUを搬入でき、Large Electric Ovenの下からアイテムを搬出できます。%n%nL: Large Electric Oven%nI: Invar Wall%nN: Large Nichrome Coil%n%nI I I%nI I I%nI I I%n%nN N N%nN N N%nN N N%n%nI I I%nI I I%nI L I
+
+Gregtania6Skyblock.Q432.name=Lightning Rod
+Gregtania6Skyblock.Q432.desc=雷が当たることで多くのEUを生産します%nLightning Rod Electric OutputからEUを搬出します。%nLightning Rodは100ブロック分の高さが必要で、Y=100以上で設置します。%nもし2つ以上Rightning Rodの設備が256ブロック以内にあると効率が下がります。%n%nO: Loghtning Rod Erectric Output%nN: Large Niobium-Titanium Coils%nT: Tungsten Walls%nL: Lightning Rod (x100)%nA: Air%n%nA A A%nA L A%nA A A%n%nT T T%nT T T%nT T T%n%nN N N%nN N N%nN N N%n%nT T T%nT T T%nT T T%n%nN N N%nN N N%nN N N%n%nT T T%nT O T%nT T T

@@ -233,11 +233,14 @@ Gregtania6Skyblock.T6.desc=Prepare Gregtech6 end contents, get more power.
 Gregtania6Skyblock.T7.name=Tier7 - Infinity Evolved
 Gregtania6Skyblock.T7.desc=Infinity evolved, yes possibility is infinity.
 
+Gregtania6Skyblock.LM.name=Large Machines
+Gregtania6Skyblock.LM.desc=Get more speed! Get more Power!
+
 Gregtania6Skyblock.AP.name=Automatic processing
 Gregtania6Skyblock.AP.desc=Make things automatically.
 
-Gregtania6Skyblock.EO.name=Exchange Ores
-Gregtania6Skyblock.EO.desc=Let's find Gregtech6 Veins.
+#Gregtania6Skyblock.EO.name=Exchange Ores
+#Gregtania6Skyblock.EO.desc=Let's find Gregtech6 Veins.
 
 #########
 # Quest #
@@ -460,7 +463,7 @@ Gregtania6Skyblock.Q71.name=Botanical altar
 Gregtania6Skyblock.Q71.desc=Some items require a ritual by using this alter.%nHold items and click this alter for putting on.%nNeed mana to work.
 
 Gregtania6Skyblock.Q72.name=Input water for boilers
-Gregtania6Skyblock.Q72.desc=It's generally that you can't drain infinity water and use pipe to input now.%nYou can use this to imput water to boiler tank.
+Gregtania6Skyblock.Q72.desc=It's generally that you can't drain infinity water and use pipe to input now.%nYou can use this to imput water to boiler tank with water bucket.
 
 Gregtania6Skyblock.Q73.name=Another convert recipes
 Gregtania6Skyblock.Q73.desc=Place below the mana pool, then you can make more items.
@@ -832,7 +835,7 @@ Gregtania6Skyblock.Q195.name=LV Lead-Acid battery
 Gregtania6Skyblock.Q195.desc=It can be charged 64000EU.
 
 Gregtania6Skyblock.Q196.name=Ore Finder Wand
-Gregtania6Skyblock.Q196.desc=It's difficult to find GT6 vein, but there is a special mod in this modpack.%n(Thank GTNewHorizons Team for making almost codes! )%n%nShift-right click to the ground with this and input Ore which you want to find.%n%nIf there is the vein in 4*4*40 (x*y*z) block, this wand alerts you.%n%nOre must be set same one.%n(You can't use stone ore for searching netherblock one.)
+Gregtania6Skyblock.Q196.desc=It's difficult to find GT6 vein, but there is a special mod in this modpack.%n(Thank GTNewHorizons Team for making almost codes! )%n%nShift-right click to the ground with this and input Ore which you want to find.%n%nIf there is the vein in 4*4*40 (x*z*y) block, this wand alerts you.%n%nIf you click ores in NEI, you can find vein information.
 
 Gregtania6Skyblock.Q197.name=Get into MV electric age
 Gregtania6Skyblock.Q197.desc=To tell the truth, there isn't certain way to evolve now.%nYou can skip many items and tier.
@@ -1311,29 +1314,29 @@ Gregtania6Skyblock.Q354.desc=It's time to do automatic crucible processing.%n%nC
 Gregtania6Skyblock.Q355.name=Drop materials into Crucible
 Gregtania6Skyblock.Q355.desc=It's first step to do automatic crucible processing.
 
-Gregtania6Skyblock.Q356.name=Nether Quartz Vein
-Gregtania6Skyblock.Q356.desc=It's for Ore Finder Wand.
+#Gregtania6Skyblock.Q356.name=Nether Quartz Vein
+#Gregtania6Skyblock.Q356.desc=It's for Ore Finder Wand.
 
-Gregtania6Skyblock.Q357.name=Copper Vein
-Gregtania6Skyblock.Q357.desc=It's for Ore Finder Wand.
+#Gregtania6Skyblock.Q357.name=Copper Vein
+#Gregtania6Skyblock.Q357.desc=It's for Ore Finder Wand.
 
-Gregtania6Skyblock.Q358.name=Nickel Vein
-Gregtania6Skyblock.Q358.desc=It's for Ore Finder Wand.
+#Gregtania6Skyblock.Q358.name=Nickel Vein
+#Gregtania6Skyblock.Q358.desc=It's for Ore Finder Wand.
 
-Gregtania6Skyblock.Q359.name=Redstone Vein
-Gregtania6Skyblock.Q359.desc=It's for Ore Finder Wand.
+#Gregtania6Skyblock.Q359.name=Redstone Vein
+#Gregtania6Skyblock.Q359.desc=It's for Ore Finder Wand.
 
-Gregtania6Skyblock.Q360.name=Titanium Vein
-Gregtania6Skyblock.Q360.desc=It's for Ore Finder Wand.
+#Gregtania6Skyblock.Q360.name=Titanium Vein
+#Gregtania6Skyblock.Q360.desc=It's for Ore Finder Wand.
 
-Gregtania6Skyblock.Q361.name=Sulfer Vein
-Gregtania6Skyblock.Q361.desc=It's for Ore Finder Wand.
+#Gregtania6Skyblock.Q361.name=Sulfer Vein
+#Gregtania6Skyblock.Q361.desc=It's for Ore Finder Wand.
 
-Gregtania6Skyblock.Q362.name=Limonite Vein
-Gregtania6Skyblock.Q362.desc=It's for Ore Finder Wand.
+#Gregtania6Skyblock.Q362.name=Limonite Vein
+#Gregtania6Skyblock.Q362.desc=It's for Ore Finder Wand.
 
-Gregtania6Skyblock.Q363.name=Try to find Gregtech Vein
-Gregtania6Skyblock.Q363.desc=You can exchange netherrack ores for Ore Finder Wand.%n%nIf you click ores in NEI, you can find vein information.
+#Gregtania6Skyblock.Q363.name=Try to find Gregtech Vein
+#Gregtania6Skyblock.Q363.desc=You can exchange netherrack ores for Ore Finder Wand.%n%nIf you click ores in NEI, you can find vein information.
 
 Gregtania6Skyblock.Q364.name=Craft pattern
 Gregtania6Skyblock.Q364.desc=It's used for auto crafting.
@@ -1481,3 +1484,39 @@ Gregtania6Skyblock.Q411.desc=Put Draconium Block into Energy Infuser and charge 
 
 Gregtania6Skyblock.Q412.name=Summon Ender Dragon
 Gregtania6Skyblock.Q412.desc=You need Dragon Heart to get Draconium equipments.%nThen, let's summon Ender Dragon again!%n%nPlease see FTB Wiki, it's difficult to explain.%nhttps://ftbwiki.org/Ritual_of_Draconic_Resurrection
+
+Gregtania6Skyblock.Q413.name=Bucket
+Gregtania6Skyblock.Q413.desc=You can take high temperature liquid.
+
+Gregtania6Skyblock.Q414.name=Large Crusher
+Gregtania6Skyblock.Q414.desc=It can process x64 in the same time without increasing energy.%nInput RU from side holes, and input items from Crusher Wheels, then output items from the bottom of Large Crusher Controller.%n%nL: Large Crusher%nW: Tungstensteel Wall%nS: Crusher Wheels%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW W W W W%nW W W W W%nW W W W W%nW W L W W
+
+Gregtania6Skyblock.Q415.name=Large Sluice
+Gregtania6Skyblock.Q415.desc=It can process x64 in the same time without increasing energy.%nInput RU from side holes, and input items and fluid from the center Sluice Part which is opposite of Crusher Wheels, then output items and fluid from the bottom of Large Shifter Controller.%n%nL: Large Shifter%nW: Titanium Wall%nS: Sluice Wheels%n%nS S S S S S S%nS S S S S S S%nS S S S S S S%n%nW W W W W W W%nW W W W W W W%nW W W W W W W%n%nW W W W W W W%nL W W W W W W%nW W W W W W W
+
+Gregtania6Skyblock.Q424.name=Large Centrifuge
+Gregtania6Skyblock.Q424.desc=It can process x64 in the same time without increasing energy.%nInput RU from bottom center hole, and input items from any blocks, then output items from the bottom of Large Centrifuge Controller.%n%nL: Large Centrifuge%nP: Centrifuge Part%n%nP P P%nP P P%nP P P%n%nP P P%nP P P%nP P P%n%nP P P%nP P P%nP L P
+
+Gregtania6Skyblock.Q425.name=Large Shredder
+Gregtania6Skyblock.Q425.desc=It can process x64 in the same time without increasing energy.%nInput RU from side holes, and input items from Shredder Wheels, then output items from the bottom of Large Shredder Controller.%n%nL: Large Shredder%nW: Tungstensteel Wall%nS: Shredder Wheels%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW W W W W%nW W W W W%nW W W W W%nW W L W W
+
+Gregtania6Skyblock.Q426.name=Implosion Compressor
+Gregtania6Skyblock.Q426.desc=It can compress materials with TNT and make big one.%nInput items from any blocks, then output items from the bottom of Implosion Compressor Controller.%n%nL: Implosion Compressor%nP: Dense Tungstensteel Wall%nA: Air%n%nP P P%nP P P%nP P P%n%nP P P%nP A P%nP P P%n%nP P P%nP P P%nP L P
+
+Gregtania6Skyblock.Q427.name=Large Electrolyzer
+Gregtania6Skyblock.Q427.desc=It can process x64 in the same time without increasing energy.%nInput EU and items from bottom any blocks, then output items from the bottom of Large Electrolyzer Controller.%n%nL: Large Electrolyzer%nE: Electrolyzer Part%n%nE E E%nE E E%nE E E%n%nE E E%nE E E%nE L E
+
+Gregtania6Skyblock.Q428.name=Large Coagulator Array
+Gregtania6Skyblock.Q428.desc=It can process x64 in the same time.%nInput items from any blocks, then output items from the bottom of Large Coagulator Array Controller.%n%nL: Large Coagulator Array%nS: Stainless Steel Wall%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S S S S%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S L S S
+
+Gregtania6Skyblock.Q429.name=Large Bathing Vat
+Gregtania6Skyblock.Q429.desc=It can process x64 in the same time.%nInput items from any blocks, then output items from the bottom of Large Bathing Vat Controller.%n%nL: Large Bathing Vat%nS: Stainless Steel Wall%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S S S S%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S L S S
+
+Gregtania6Skyblock.Q430.name=Large Batch Mixer
+Gregtania6Skyblock.Q430.desc=It can process x256 in the same time.%nInput RU from top or bottom holes, and input items from top blocks, then output items from the bottom of Large Batch Mixer Controller.%n%nL: Large Batch Mixer%nS: Stainless Steel Wall%n%nS S S%nS S S%nS S S%n%nS S S%nS S S%nS L S
+
+Gregtania6Skyblock.Q431.name=Large Electric Oven
+Gregtania6Skyblock.Q431.desc=It can process x64 in the same time without increasing energy.%nInput EU and items from any blocks without Large Nichrome Coil, then output items from the bottom of Large Electric Oven Controller.%n%nL: Large Electric Oven%nI: Invar Wall%nN: Large Nichrome Coil%n%nI I I%nI I I%nI I I%n%nN N N%nN N N%nN N N%n%nI I I%nI I I%nI L I
+
+Gregtania6Skyblock.Q432.name=Lightning Rod
+Gregtania6Skyblock.Q432.desc=It can produce much EU by hitting thunder.%nOutput EU from Lightning Rod Electric Output.%nLightning Rod height is more than 100 block, and Y height is more than y=100%nIf there are more two Rightning Rod structure in 256 blocks, efficiency gets down.%n%nO: Loghtning Rod Erectric Output%nN: Large Niobium-Titanium Coils%nT: Tungsten Walls%nL: Lightning Rod (x100)%nA: Air%n%nA A A%nA L A%nA A A%n%nT T T%nT T T%nT T T%n%nN N N%nN N N%nN N N%n%nT T T%nT T T%nT T T%n%nN N N%nN N N%nN N N%n%nT T T%nT O T%nT T T

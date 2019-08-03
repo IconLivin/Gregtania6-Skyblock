@@ -4117,8 +4117,7 @@
     "58:10": {
       "questID:3": 58,
       "preRequisites:11": [
-        86,
-        89
+        86
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5299,7 +5298,8 @@
     "72:10": {
       "questID:3": 72,
       "preRequisites:11": [
-        68
+        68,
+        89
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6833,7 +6833,7 @@
     "89:10": {
       "questID:3": 89,
       "preRequisites:11": [
-        86
+        68
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6913,7 +6913,7 @@
     "90:10": {
       "questID:3": 90,
       "preRequisites:11": [
-        89
+        86
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23743,7 +23743,18 @@
     "308:10": {
       "questID:3": 308,
       "preRequisites:11": [
-        402
+        402,
+        414,
+        415,
+        424,
+        425,
+        427,
+        428,
+        429,
+        430,
+        431,
+        426,
+        432
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -31976,6 +31987,1004 @@
         }
       },
       "rewards:9": {}
+    },
+    "413:10": {
+      "questID:3": 413,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bucket",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q413.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q413.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 1,
+              "Damage:2": 260,
+              "OreDict:8": "plateAnyIron"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.plateCurved",
+              "Count:3": 2,
+              "Damage:2": 260,
+              "OreDict:8": "plateCurvedAnyIron"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "Damage:2": 12,
+              "OreDict:8": "craftingToolHardHammer"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:bucket",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "414:10": {
+      "questID:3": 414,
+      "preRequisites:11": [
+        270,
+        372
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17108,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q414.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q414.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17108,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 18,
+              "Damage:2": 18107,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 56,
+              "Damage:2": 18003,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "415:10": {
+      "questID:3": 415,
+      "preRequisites:11": [
+        270,
+        280
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17107,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q415.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q415.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17107,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 21,
+              "Damage:2": 18106,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 41,
+              "Damage:2": 18006,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "416:10": {
+      "questID:3": 416,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17100,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q416.name\n",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q416.desc\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "417:10": {
+      "questID:3": 417,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17109,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q417.name\n",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q417.desc\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "418:10": {
+      "questID:3": 418,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17110,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q418.name\n",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q418.desc\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "419:10": {
+      "questID:3": 419,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17103,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q419.name\n",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q419.desc\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "420:10": {
+      "questID:3": 420,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17105,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q420.name\n",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q420.desc\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "421:10": {
+      "questID:3": 421,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17104,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q421.name\n",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q421.desc\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "422:10": {
+      "questID:3": 422,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17106,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q422.name\n",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q422.desc\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "423:10": {
+      "questID:3": 423,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17998,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q423.name\n",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q423.desc\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "424:10": {
+      "questID:3": 424,
+      "preRequisites:11": [
+        270,
+        372
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17100,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q424.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q424.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17100,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 26,
+              "Damage:2": 18100,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "425:10": {
+      "questID:3": 425,
+      "preRequisites:11": [
+        270,
+        372
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17109,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q425.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q425.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17109,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 18,
+              "Damage:2": 18108,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 56,
+              "Damage:2": 18003,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "426:10": {
+      "questID:3": 426,
+      "preRequisites:11": [
+        270,
+        372
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17110,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q426.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q426.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17110,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 25,
+              "Damage:2": 18023,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "427:10": {
+      "questID:3": 427,
+      "preRequisites:11": [
+        270
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17103,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q427.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q427.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17103,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 17,
+              "Damage:2": 18105,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "428:10": {
+      "questID:3": 428,
+      "preRequisites:11": [
+        270
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17105,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q428.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q428.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 49,
+              "Damage:2": 18002,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17105,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "429:10": {
+      "questID:3": 429,
+      "preRequisites:11": [
+        270
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17104,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q429.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q429.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 49,
+              "Damage:2": 18002,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17104,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "430:10": {
+      "questID:3": 430,
+      "preRequisites:11": [
+        270
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17102,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q430.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q430.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17102,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 17,
+              "Damage:2": 18002,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "431:10": {
+      "questID:3": 431,
+      "preRequisites:11": [
+        270
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17106,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q431.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q431.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17106,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 17,
+              "Damage:2": 18007,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 9,
+              "Damage:2": 18042,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "432:10": {
+      "questID:3": 432,
+      "preRequisites:11": [
+        267,
+        233,
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 18104,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Gregtania6Skyblock.Q432.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtania6Skyblock.Q432.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17998,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 100,
+              "Damage:2": 18104,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 26,
+              "Damage:2": 18004,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 18,
+              "Damage:2": 18041,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -32354,8 +33363,8 @@
         },
         "10:10": {
           "sizeX:3": 45,
-          "x:3": 354,
-          "y:3": 306,
+          "x:3": 564,
+          "y:3": 192,
           "id:3": 52,
           "sizeY:3": 43
         },
@@ -32452,29 +33461,29 @@
         },
         "24:10": {
           "sizeX:3": 49,
-          "x:3": 426,
+          "x:3": 390,
           "y:3": 306,
           "id:3": 66,
           "sizeY:3": 51
         },
         "25:10": {
           "sizeX:3": 49,
-          "x:3": 450,
-          "y:3": 378,
+          "x:3": 480,
+          "y:3": 324,
           "id:3": 67,
           "sizeY:3": 51
         },
         "26:10": {
           "sizeX:3": 49,
-          "x:3": 523,
-          "y:3": 428,
+          "x:3": 594,
+          "y:3": 360,
           "id:3": 68,
           "sizeY:3": 51
         },
         "27:10": {
           "sizeX:3": 49,
-          "x:3": 666,
-          "y:3": 384,
+          "x:3": 672,
+          "y:3": 360,
           "id:3": 69,
           "sizeY:3": 51
         },
@@ -32494,8 +33503,8 @@
         },
         "30:10": {
           "sizeX:3": 49,
-          "x:3": 596,
-          "y:3": 459,
+          "x:3": 582,
+          "y:3": 450,
           "id:3": 72,
           "sizeY:3": 51
         },
@@ -32557,8 +33566,8 @@
         },
         "39:10": {
           "sizeX:3": 49,
-          "x:3": 600,
-          "y:3": 306,
+          "x:3": 648,
+          "y:3": 276,
           "id:3": 81,
           "sizeY:3": 51
         },
@@ -32572,14 +33581,14 @@
         "41:10": {
           "sizeX:3": 49,
           "x:3": 216,
-          "y:3": 583,
+          "y:3": 612,
           "id:3": 83,
           "sizeY:3": 51
         },
         "42:10": {
           "sizeX:3": 49,
-          "x:3": 690,
-          "y:3": 306,
+          "x:3": 720,
+          "y:3": 288,
           "id:3": 84,
           "sizeY:3": 51
         },
@@ -32613,8 +33622,8 @@
         },
         "47:10": {
           "sizeX:3": 49,
-          "x:3": 289,
-          "y:3": 583,
+          "x:3": 498,
+          "y:3": 402,
           "id:3": 89,
           "sizeY:3": 51
         },
@@ -32697,8 +33706,8 @@
         },
         "59:10": {
           "sizeX:3": 44,
-          "x:3": 522,
-          "y:3": 348,
+          "x:3": 498,
+          "y:3": 264,
           "id:3": 101,
           "sizeY:3": 42
         },
@@ -32711,8 +33720,8 @@
         },
         "61:10": {
           "sizeX:3": 40,
-          "x:3": 588,
-          "y:3": 384,
+          "x:3": 582,
+          "y:3": 306,
           "id:3": 103,
           "sizeY:3": 39
         },
@@ -32858,10 +33867,10 @@
         },
         "82:10": {
           "sizeX:3": 42,
-          "x:3": 510,
-          "y:3": 276,
+          "x:3": 318,
+          "y:3": 306,
           "id:3": 125,
-          "sizeY:3": 45
+          "sizeY:3": 42
         },
         "83:10": {
           "sizeX:3": 40,
@@ -32914,8 +33923,8 @@
         },
         "90:10": {
           "sizeX:3": 39,
-          "x:3": 282,
-          "y:3": 276,
+          "x:3": 492,
+          "y:3": 144,
           "id:3": 134,
           "sizeY:3": 39
         },
@@ -32932,6 +33941,13 @@
           "y:3": 596,
           "id:3": 301,
           "sizeY:3": 51
+        },
+        "93:10": {
+          "sizeX:3": 48,
+          "x:3": 258,
+          "y:3": 264,
+          "id:3": 413,
+          "sizeY:3": 48
         }
       },
       "lineID:3": 1,
@@ -33515,168 +34531,6 @@
     "3:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 59,
-          "x:3": 24,
-          "y:3": 192,
-          "id:3": 337,
-          "sizeY:3": 66
-        },
-        "1:10": {
-          "sizeX:3": 59,
-          "x:3": 506,
-          "y:3": 358,
-          "id:3": 338,
-          "sizeY:3": 66
-        },
-        "2:10": {
-          "sizeX:3": 59,
-          "x:3": 346,
-          "y:3": 224,
-          "id:3": 339,
-          "sizeY:3": 66
-        },
-        "3:10": {
-          "sizeX:3": 59,
-          "x:3": 536,
-          "y:3": 192,
-          "id:3": 340,
-          "sizeY:3": 66
-        },
-        "4:10": {
-          "sizeX:3": 59,
-          "x:3": 68,
-          "y:3": 58,
-          "id:3": 341,
-          "sizeY:3": 66
-        },
-        "5:10": {
-          "sizeX:3": 59,
-          "x:3": 257,
-          "y:3": 358,
-          "id:3": 342,
-          "sizeY:3": 66
-        },
-        "6:10": {
-          "sizeX:3": 59,
-          "x:3": 98,
-          "y:3": 458,
-          "id:3": 343,
-          "sizeY:3": 66
-        },
-        "7:10": {
-          "sizeX:3": 59,
-          "x:3": 374,
-          "y:3": 90,
-          "id:3": 344,
-          "sizeY:3": 66
-        },
-        "8:10": {
-          "sizeX:3": 59,
-          "x:3": 580,
-          "y:3": 24,
-          "id:3": 345,
-          "sizeY:3": 66
-        },
-        "9:10": {
-          "sizeX:3": 59,
-          "x:3": 257,
-          "y:3": 558,
-          "id:3": 346,
-          "sizeY:3": 66
-        },
-        "10:10": {
-          "sizeX:3": 59,
-          "x:3": 418,
-          "y:3": 660,
-          "id:3": 347,
-          "sizeY:3": 66
-        },
-        "11:10": {
-          "sizeX:3": 59,
-          "x:3": 580,
-          "y:3": 558,
-          "id:3": 348,
-          "sizeY:3": 66
-        },
-        "12:10": {
-          "sizeX:3": 59,
-          "x:3": 740,
-          "y:3": 558,
-          "id:3": 349,
-          "sizeY:3": 66
-        },
-        "13:10": {
-          "sizeX:3": 59,
-          "x:3": 871,
-          "y:3": 558,
-          "id:3": 350,
-          "sizeY:3": 66
-        },
-        "14:10": {
-          "sizeX:3": 59,
-          "x:3": 871,
-          "y:3": 660,
-          "id:3": 351,
-          "sizeY:3": 66
-        },
-        "15:10": {
-          "sizeX:3": 59,
-          "x:3": 871,
-          "y:3": 458,
-          "id:3": 352,
-          "sizeY:3": 66
-        },
-        "16:10": {
-          "sizeX:3": 59,
-          "x:3": 726,
-          "y:3": 141,
-          "id:3": 353,
-          "sizeY:3": 66
-        },
-        "17:10": {
-          "sizeX:3": 59,
-          "x:3": 740,
-          "y:3": 358,
-          "id:3": 354,
-          "sizeY:3": 66
-        },
-        "18:10": {
-          "sizeX:3": 59,
-          "x:3": 871,
-          "y:3": 258,
-          "id:3": 355,
-          "sizeY:3": 66
-        },
-        "19:10": {
-          "sizeX:3": 59,
-          "x:3": 98,
-          "y:3": 660,
-          "id:3": 364,
-          "sizeY:3": 66
-        }
-      },
-      "lineID:3": 3,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Gregtania6Skyblock.AP.name",
-          "icon:10": {
-            "id:8": "Botania:lens",
-            "Count:3": 1,
-            "tag:10": {},
-            "Damage:2": 7,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Gregtania6Skyblock.AP.desc"
-        }
-      },
-      "order:3": 8
-    },
-    "4:10": {
-      "quests:9": {
-        "0:10": {
           "sizeX:3": 49,
           "x:3": 246,
           "y:3": 244,
@@ -33898,7 +34752,7 @@
       },
       "order:3": 3
     },
-    "5:10": {
+    "4:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 68,
@@ -34115,7 +34969,7 @@
       },
       "order:3": 4
     },
-    "6:10": {
+    "5:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 67,
@@ -34255,7 +35109,7 @@
       },
       "order:3": 5
     },
-    "7:10": {
+    "6:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 48,
@@ -34675,84 +35529,7 @@
       },
       "order:3": 6
     },
-    "8:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 97,
-          "x:3": 526,
-          "y:3": 505,
-          "id:3": 356,
-          "sizeY:3": 107
-        },
-        "1:10": {
-          "sizeX:3": 97,
-          "x:3": 66,
-          "y:3": 24,
-          "id:3": 357,
-          "sizeY:3": 107
-        },
-        "2:10": {
-          "sizeX:3": 97,
-          "x:3": 647,
-          "y:3": 24,
-          "id:3": 358,
-          "sizeY:3": 107
-        },
-        "3:10": {
-          "sizeX:3": 97,
-          "x:3": 357,
-          "y:3": 24,
-          "id:3": 359,
-          "sizeY:3": 107
-        },
-        "4:10": {
-          "sizeX:3": 97,
-          "x:3": 66,
-          "y:3": 265,
-          "id:3": 360,
-          "sizeY:3": 107
-        },
-        "5:10": {
-          "sizeX:3": 97,
-          "x:3": 211,
-          "y:3": 505,
-          "id:3": 361,
-          "sizeY:3": 107
-        },
-        "6:10": {
-          "sizeX:3": 97,
-          "x:3": 647,
-          "y:3": 265,
-          "id:3": 362,
-          "sizeY:3": 107
-        },
-        "7:10": {
-          "sizeX:3": 97,
-          "x:3": 357,
-          "y:3": 265,
-          "id:3": 363,
-          "sizeY:3": 107
-        }
-      },
-      "lineID:3": 8,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Gregtania6Skyblock.EO.name",
-          "icon:10": {
-            "id:8": "ifu:ifu_buildingKit",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Gregtania6Skyblock.EO.desc"
-        }
-      },
-      "order:3": 9
-    },
-    "9:10": {
+    "7:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 128,
@@ -35031,6 +35808,266 @@
         }
       },
       "order:3": 7
+    },
+    "8:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 59,
+          "x:3": 24,
+          "y:3": 192,
+          "id:3": 337,
+          "sizeY:3": 66
+        },
+        "1:10": {
+          "sizeX:3": 59,
+          "x:3": 506,
+          "y:3": 358,
+          "id:3": 338,
+          "sizeY:3": 66
+        },
+        "2:10": {
+          "sizeX:3": 59,
+          "x:3": 346,
+          "y:3": 224,
+          "id:3": 339,
+          "sizeY:3": 66
+        },
+        "3:10": {
+          "sizeX:3": 59,
+          "x:3": 536,
+          "y:3": 192,
+          "id:3": 340,
+          "sizeY:3": 66
+        },
+        "4:10": {
+          "sizeX:3": 59,
+          "x:3": 68,
+          "y:3": 58,
+          "id:3": 341,
+          "sizeY:3": 66
+        },
+        "5:10": {
+          "sizeX:3": 59,
+          "x:3": 257,
+          "y:3": 358,
+          "id:3": 342,
+          "sizeY:3": 66
+        },
+        "6:10": {
+          "sizeX:3": 59,
+          "x:3": 98,
+          "y:3": 458,
+          "id:3": 343,
+          "sizeY:3": 66
+        },
+        "7:10": {
+          "sizeX:3": 59,
+          "x:3": 374,
+          "y:3": 90,
+          "id:3": 344,
+          "sizeY:3": 66
+        },
+        "8:10": {
+          "sizeX:3": 59,
+          "x:3": 580,
+          "y:3": 24,
+          "id:3": 345,
+          "sizeY:3": 66
+        },
+        "9:10": {
+          "sizeX:3": 59,
+          "x:3": 257,
+          "y:3": 558,
+          "id:3": 346,
+          "sizeY:3": 66
+        },
+        "10:10": {
+          "sizeX:3": 59,
+          "x:3": 418,
+          "y:3": 660,
+          "id:3": 347,
+          "sizeY:3": 66
+        },
+        "11:10": {
+          "sizeX:3": 59,
+          "x:3": 580,
+          "y:3": 558,
+          "id:3": 348,
+          "sizeY:3": 66
+        },
+        "12:10": {
+          "sizeX:3": 59,
+          "x:3": 740,
+          "y:3": 558,
+          "id:3": 349,
+          "sizeY:3": 66
+        },
+        "13:10": {
+          "sizeX:3": 59,
+          "x:3": 871,
+          "y:3": 558,
+          "id:3": 350,
+          "sizeY:3": 66
+        },
+        "14:10": {
+          "sizeX:3": 59,
+          "x:3": 871,
+          "y:3": 660,
+          "id:3": 351,
+          "sizeY:3": 66
+        },
+        "15:10": {
+          "sizeX:3": 59,
+          "x:3": 871,
+          "y:3": 458,
+          "id:3": 352,
+          "sizeY:3": 66
+        },
+        "16:10": {
+          "sizeX:3": 59,
+          "x:3": 726,
+          "y:3": 141,
+          "id:3": 353,
+          "sizeY:3": 66
+        },
+        "17:10": {
+          "sizeX:3": 59,
+          "x:3": 740,
+          "y:3": 358,
+          "id:3": 354,
+          "sizeY:3": 66
+        },
+        "18:10": {
+          "sizeX:3": 59,
+          "x:3": 871,
+          "y:3": 258,
+          "id:3": 355,
+          "sizeY:3": 66
+        },
+        "19:10": {
+          "sizeX:3": 59,
+          "x:3": 98,
+          "y:3": 660,
+          "id:3": 364,
+          "sizeY:3": 66
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Gregtania6Skyblock.AP.name",
+          "icon:10": {
+            "id:8": "Botania:lens",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Gregtania6Skyblock.AP.desc"
+        }
+      },
+      "order:3": 8
+    },
+    "9:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 122,
+          "x:3": 108,
+          "y:3": 132,
+          "id:3": 414,
+          "sizeY:3": 141
+        },
+        "1:10": {
+          "sizeX:3": 122,
+          "x:3": 345,
+          "y:3": 132,
+          "id:3": 415,
+          "sizeY:3": 141
+        },
+        "2:10": {
+          "sizeX:3": 118,
+          "x:3": 581,
+          "y:3": 132,
+          "id:3": 424,
+          "sizeY:3": 140
+        },
+        "3:10": {
+          "sizeX:3": 118,
+          "x:3": 818,
+          "y:3": 132,
+          "id:3": 425,
+          "sizeY:3": 140
+        },
+        "4:10": {
+          "sizeX:3": 118,
+          "x:3": 108,
+          "y:3": 350,
+          "id:3": 426,
+          "sizeY:3": 140
+        },
+        "5:10": {
+          "sizeX:3": 118,
+          "x:3": 345,
+          "y:3": 350,
+          "id:3": 427,
+          "sizeY:3": 140
+        },
+        "6:10": {
+          "sizeX:3": 118,
+          "x:3": 581,
+          "y:3": 350,
+          "id:3": 428,
+          "sizeY:3": 140
+        },
+        "7:10": {
+          "sizeX:3": 118,
+          "x:3": 818,
+          "y:3": 350,
+          "id:3": 429,
+          "sizeY:3": 140
+        },
+        "8:10": {
+          "sizeX:3": 118,
+          "x:3": 226,
+          "y:3": 568,
+          "id:3": 430,
+          "sizeY:3": 140
+        },
+        "9:10": {
+          "sizeX:3": 118,
+          "x:3": 463,
+          "y:3": 568,
+          "id:3": 431,
+          "sizeY:3": 140
+        },
+        "10:10": {
+          "sizeX:3": 118,
+          "x:3": 699,
+          "y:3": 568,
+          "id:3": 432,
+          "sizeY:3": 140
+        }
+      },
+      "lineID:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Gregtania6Skyblock.LM.name",
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17100,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Gregtania6Skyblock.LM.desc"
+        }
+      },
+      "order:3": 9
     }
   },
   "questSettings:10": {
@@ -35043,7 +36080,7 @@
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
-      "editMode:1": 1,
+      "editMode:1": 0,
       "pack_version:3": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
